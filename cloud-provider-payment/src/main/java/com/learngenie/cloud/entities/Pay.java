@@ -1,6 +1,9 @@
 package com.learngenie.cloud.entities;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.learngenie.cloud.utils.TimeUtil;
 import io.swagger.v3.oas.annotations.media.Schema;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
@@ -60,6 +63,8 @@ public class Pay implements Serializable {
      */
     @Column(name = "create_time")
     @Schema(title = "创建时间")
+    @JsonFormat(pattern = TimeUtil.dateFormat, timezone = "GMT+8")
+    @DateTimeFormat(pattern = TimeUtil.dateFormat)
     private Date createTime;
 
     /**
@@ -67,6 +72,8 @@ public class Pay implements Serializable {
      */
     @Column(name = "`update _time`")
     @Schema(title = "更新时间")
+    @JsonFormat(pattern = TimeUtil.dateFormat, timezone = "GMT+8")
+    @DateTimeFormat(pattern = TimeUtil.dateFormat)
     private Date updateTime;
 
     private static final long serialVersionUID = 1L;
