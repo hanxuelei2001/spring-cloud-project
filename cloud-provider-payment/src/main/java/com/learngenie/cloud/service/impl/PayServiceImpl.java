@@ -22,7 +22,7 @@ public class PayServiceImpl implements PayService {
     private PayMapper payMapper;
 
     @Override
-    public ResultData add(Pay pay) {
+    public int add(Pay pay) {
         // 参数校验
         if (Objects.isNull(pay)) {
             throw new BusinessException();
@@ -31,13 +31,13 @@ public class PayServiceImpl implements PayService {
         int res = payMapper.insertSelective(pay);
         // 如果插入成功
         if (res > 0) {
-            return new ResultData();
+            return res;
         }
         throw new BusinessException();
     }
 
     @Override
-    public ResultData delete(Integer id) {
+    public int delete(Integer id) {
         // 参数校验
         if (Objects.isNull(id)) {
             throw new BusinessException();
@@ -45,13 +45,13 @@ public class PayServiceImpl implements PayService {
         int res = payMapper.deleteByPrimaryKey(id);
         // 如果删除成功
         if (res > 0) {
-            return new ResultData();
+            return res;
         }
         throw new BusinessException();
     }
 
     @Override
-    public ResultData update(Pay pay) {
+    public int update(Pay pay) {
         // 参数校验
         if (Objects.isNull(pay)) {
             throw new BusinessException();
@@ -59,7 +59,7 @@ public class PayServiceImpl implements PayService {
         int res = payMapper.updateByPrimaryKeySelective(pay);
         // 如果更新成功
         if (res > 0) {
-            return new ResultData();
+            return res;
         }
         throw new BusinessException();
     }

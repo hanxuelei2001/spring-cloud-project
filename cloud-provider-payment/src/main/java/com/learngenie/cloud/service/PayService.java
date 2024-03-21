@@ -7,9 +7,9 @@ import java.util.List;
 
 public interface PayService {
 
-    ResultData add(Pay pay);
-    ResultData delete(Integer id);
-    ResultData update(Pay pay);
+    int add(Pay pay);
+    int delete(Integer id);
+    int update(Pay pay);
 
     Pay getById(Integer id);
 

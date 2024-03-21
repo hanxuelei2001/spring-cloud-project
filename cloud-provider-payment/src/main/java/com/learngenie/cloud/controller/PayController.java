@@ -32,33 +32,33 @@ public class PayController {
 
     @PostMapping("/add")
     @Operation(summary = "新增", description = "新增支付流水方法， json 作为参数")
-    public ResultData addPay(@RequestBody Pay pay) {
-        return payService.add(pay);
+    public ResultData<Integer> addPay(@RequestBody Pay pay) {
+        return ResultData.success(payService.add(pay));
     }
 
     @DeleteMapping("/del/{id}")
     @Operation(summary = "删除", description = "删除支付流水方法， id 作为路径参数")
-    public ResultData deletePay(@PathVariable("id") Integer id) {
-        return payService.delete(id);
+    public ResultData<Integer> deletePay(@PathVariable("id") Integer id) {
+        return ResultData.success(payService.delete(id));
     }
 
     @PutMapping("/udpate")
     @Operation(summary = "更新", description = "更新支付流水方法， json 作为参数")
-    public ResultData updatePay(@RequestBody PayDto payDto) {
+    public ResultData<Integer> updatePay(@RequestBody PayDto payDto) {
         // 使用转化器转化，可以比 Bean 拷贝要高效
         Pay pay = DtoConvert.convertDtoEntity(payDto);
-        return payService.update(pay);
+        return ResultData.success(payService.update(pay));
     }
 
     @GetMapping("/get/{id}")
     @Operation(summary = "查询", description = "查询支付流水方法， id 作为路径参数")
-    public Pay getPay(@PathVariable("id") Integer id) {
-        return payService.getById(id);
+    public ResultData<Pay> getPay(@PathVariable("id") Integer id) {
+        return ResultData.success(payService.getById(id));
     }
 
     @GetMapping("/get/all")
     @Operation(summary = "查询全部", description = "查询全部支付流水方法")
-    public List<Pay> getAll() {
-        return payService.getAll();
+    public ResultData<List<Pay>> getAll() {
+        return ResultData.success(payService.getAll());
     }
 }
