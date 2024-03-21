@@ -662,16 +662,6 @@ public class StringUtil {
         return encryptStr;
     }
 
-    public static String escapeTimestamp(String timestamp) {
-        Date date;
-        try {
-            date = TimeUtil.parse(timestamp, TimeUtil.format2);
-        } catch (Exception e) {
-            date = TimeUtil.getUtcNow();
-        }
-        timestamp = TimeUtil.format(date, TimeUtil.format15);
-        return timestamp.trim().replace(" ", "_").replace("/", "-").replace(":", "-");
-    }
 
     public static String formatParameter(String parameter, boolean isGarbled) {
         if (parameter == null)
