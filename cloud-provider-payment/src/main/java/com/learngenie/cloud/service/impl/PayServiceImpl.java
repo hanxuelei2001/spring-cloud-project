@@ -4,7 +4,7 @@ import cn.hutool.core.collection.CollectionUtil;
 import com.learngenie.cloud.entities.Pay;
 import com.learngenie.cloud.exception.BusinessException;
 import com.learngenie.cloud.mapper.PayMapper;
-import com.learngenie.cloud.response.SuccessResponse;
+import com.learngenie.cloud.response.ResultData;
 import com.learngenie.cloud.service.PayService;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
@@ -22,7 +22,7 @@ public class PayServiceImpl implements PayService {
     private PayMapper payMapper;
 
     @Override
-    public SuccessResponse add(Pay pay) {
+    public ResultData add(Pay pay) {
         // 参数校验
         if (Objects.isNull(pay)) {
             throw new BusinessException();
@@ -31,13 +31,13 @@ public class PayServiceImpl implements PayService {
         int res = payMapper.insertSelective(pay);
         // 如果插入成功
         if (res > 0) {
-            return new SuccessResponse();
+            return new ResultData();
         }
         throw new BusinessException();
     }
 
     @Override
-    public SuccessResponse delete(Integer id) {
+    public ResultData delete(Integer id) {
         // 参数校验
         if (Objects.isNull(id)) {
             throw new BusinessException();
@@ -45,13 +45,13 @@ public class PayServiceImpl implements PayService {
         int res = payMapper.deleteByPrimaryKey(id);
         // 如果删除成功
         if (res > 0) {
-            return new SuccessResponse();
+            return new ResultData();
         }
         throw new BusinessException();
     }
 
     @Override
-    public SuccessResponse update(Pay pay) {
+    public ResultData update(Pay pay) {
         // 参数校验
         if (Objects.isNull(pay)) {
             throw new BusinessException();
@@ -59,7 +59,7 @@ public class PayServiceImpl implements PayService {
         int res = payMapper.updateByPrimaryKeySelective(pay);
         // 如果更新成功
         if (res > 0) {
-            return new SuccessResponse();
+            return new ResultData();
         }
         throw new BusinessException();
     }

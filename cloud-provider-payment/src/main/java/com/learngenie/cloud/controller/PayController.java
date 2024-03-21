@@ -3,7 +3,7 @@ package com.learngenie.cloud.controller;
 import com.learngenie.cloud.convert.DtoConvert;
 import com.learngenie.cloud.entities.Pay;
 import com.learngenie.cloud.entities.PayDto;
-import com.learngenie.cloud.response.SuccessResponse;
+import com.learngenie.cloud.response.ResultData;
 import com.learngenie.cloud.service.PayService;
 import java.util.List;
 
@@ -32,19 +32,19 @@ public class PayController {
 
     @PostMapping("/add")
     @Operation(summary = "新增", description = "新增支付流水方法， json 作为参数")
-    public SuccessResponse addPay(@RequestBody Pay pay) {
+    public ResultData addPay(@RequestBody Pay pay) {
         return payService.add(pay);
     }
 
     @DeleteMapping("/del/{id}")
     @Operation(summary = "删除", description = "删除支付流水方法， id 作为路径参数")
-    public SuccessResponse deletePay(@PathVariable("id") Integer id) {
+    public ResultData deletePay(@PathVariable("id") Integer id) {
         return payService.delete(id);
     }
 
     @PutMapping("/udpate")
     @Operation(summary = "更新", description = "更新支付流水方法， json 作为参数")
-    public SuccessResponse updatePay(@RequestBody PayDto payDto) {
+    public ResultData updatePay(@RequestBody PayDto payDto) {
         // 使用转化器转化，可以比 Bean 拷贝要高效
         Pay pay = DtoConvert.convertDtoEntity(payDto);
         return payService.update(pay);
