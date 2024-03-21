@@ -1,5 +1,7 @@
 package com.learngenie.cloud.entities;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -13,49 +15,58 @@ import java.util.Date;
  * 表注释：交易支付表
 */
 @Table(name = "t_pay")
+@Schema(title = "交易支付表")
 public class Pay implements Serializable {
     @Id
     @GeneratedValue(generator = "JDBC")
+    @Schema(title = "Id")
     private Integer id;
 
     /**
      * 支付流水号
      */
     @Column(name = "pay_no")
+    @Schema(title = "支付流水号")
     private String payNo;
 
     /**
      * 订单流水号
      */
     @Column(name = "order_no")
+    @Schema(title = "订单流水号")
     private String orderNo;
 
     /**
      * 用户账号 ID
      */
     @Column(name = "user_id")
+    @Schema(title = "用户账号 ID")
     private Integer userId;
 
     /**
      * 交易金额
      */
+    @Schema(title = "交易金额")
     private BigDecimal amount;
 
     /**
      * 删除标志位 0 表示不删除，1 表示删除
      */
+    @Schema(title = "删除标志位 0 表示不删除，1 表示删除")
     private Byte deleted;
 
     /**
      * 创建时间
      */
     @Column(name = "create_time")
+    @Schema(title = "创建时间")
     private Date createTime;
 
     /**
      * 更新时间
      */
     @Column(name = "`update _time`")
+    @Schema(title = "更新时间")
     private Date updateTime;
 
     private static final long serialVersionUID = 1L;
