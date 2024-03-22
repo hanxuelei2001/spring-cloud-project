@@ -9,14 +9,8 @@ spring:
     url: jdbc:mysql://localhost:3306/db2024?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
     username: root
     password: root
-
-  # spring consul
-  cloud:
-    consul:
-      host: localhost
-      discovery:
-        service-name: ${spring.application.name}
-      port: 8500
+  profiles:
+    active:  # 多环境内容加载
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.learngenie.cloud.entities
