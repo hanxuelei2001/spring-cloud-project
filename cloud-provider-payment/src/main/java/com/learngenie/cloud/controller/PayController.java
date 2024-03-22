@@ -42,7 +42,7 @@ public class PayController {
         return ResultData.success(payService.delete(id));
     }
 
-    @PutMapping("/udpate")
+    @PutMapping("/update")
     @Operation(summary = "更新", description = "更新支付流水方法， json 作为参数")
     public ResultData<Integer> updatePay(@RequestBody PayDto payDto) {
         // 使用转化器转化，可以比 Bean 拷贝要高效
