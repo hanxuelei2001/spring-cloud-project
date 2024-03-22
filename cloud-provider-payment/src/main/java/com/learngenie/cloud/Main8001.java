@@ -2,8 +2,11 @@ package com.learngenie.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import tk.mybatis.spring.annotation.MapperScan;
 
+// 入住注册中心
+@EnableDiscoveryClient
 @SpringBootApplication
 @MapperScan("com.learngenie.cloud.mapper")
 public class Main8001 {

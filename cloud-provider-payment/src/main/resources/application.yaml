@@ -10,6 +10,13 @@ spring:
     username: root
     password: root
 
+  # spring consul
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        service-name: ${spring.application.name}
+      port: 8500
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.learngenie.cloud.entities
