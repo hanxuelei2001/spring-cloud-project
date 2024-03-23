@@ -15,7 +15,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ResultData<String> exception(Exception e) {
-        log.error("has error: {}", e.getMessage());
+        log.error("has error: {}, stack: {}", e.getMessage(), e.getStackTrace());
         return ResultData.fail(ReturnCodeEnum.RC500.getCode(), e.getMessage());
     }
 }
