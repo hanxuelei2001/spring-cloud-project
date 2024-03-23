@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: cloud-consumer-openfeign-order
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        service-name: ${spring.application.name}
+        prefer-ip-address: true # 是否优先使用服务 IP 进行注册
+      port: 8500

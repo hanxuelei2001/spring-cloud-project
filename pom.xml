@@ -14,7 +14,8 @@
 		<module>cloud-consumer-order80</module>
         <module>cloud-api-commons</module>
         <module>cloud-provider-payment8002</module>
-    </modules>
+		<module>cloud-consumer-feign-order8080</module>
+	</modules>
 	<packaging>pom</packaging>
 
 	<properties>
