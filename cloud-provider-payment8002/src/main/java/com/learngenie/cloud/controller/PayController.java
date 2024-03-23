@@ -33,6 +33,8 @@ public class PayController {
 
     @Value("${server.port}")
     private String port;
+
+
     @PostMapping("/add")
     @Operation(summary = "新增", description = "新增支付流水方法， json 作为参数")
     public ResultData<Integer> addPay(@RequestBody Pay pay) {
