@@ -11,6 +11,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -29,6 +30,7 @@ public class PayController {
 
     @Autowired
     private PayService payService;
+
 
     @PostMapping("/add")
     @Operation(summary = "新增", description = "新增支付流水方法， json 作为参数")
@@ -52,7 +54,8 @@ public class PayController {
 
     @GetMapping("/get/{id}")
     @Operation(summary = "查询", description = "查询支付流水方法， id 作为路径参数")
-    public ResultData<Pay> getPay(@PathVariable("id") Integer id) {
+    public ResultData<Pay> getPay(@PathVariable("id") Integer id, @Value("${info}") String info) {
+        log.info(info);
         return ResultData.success(payService.getById(id));
     }
 
