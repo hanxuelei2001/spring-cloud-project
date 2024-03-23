@@ -6,7 +6,9 @@ import com.learngenie.cloud.entities.PayDto;
 import com.learngenie.cloud.response.ResultData;
 import com.learngenie.cloud.service.PayService;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
+import com.learngenie.cloud.utils.TimeUtil;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
@@ -55,8 +57,9 @@ public class PayController {
 
     @GetMapping("/get/{id}")
     @Operation(summary = "查询", description = "查询支付流水方法， id 作为路径参数")
-    public ResultData<Pay> getPay(@PathVariable("id") Integer id, @Value("${info}") String info) {
+    public ResultData<Pay> getPay(@PathVariable("id") Integer id, @Value("${info}") String info) throws InterruptedException {
         log.info("info: {}, port: {}",info, port);
+        //TimeUnit.SECONDS.sleep(10); 测试超时重试
         return ResultData.success(payService.getById(id));
     }
 

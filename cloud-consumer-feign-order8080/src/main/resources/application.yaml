@@ -20,6 +20,6 @@ spring:
             read-timeout: 4000
           cloud-payment-service: # 细粒度的会覆盖 default
 #            为专属的服务设置超时时间
-            connect-timeout: 30000
+            connect-timeout: 4000
 #            为专属的服务设置读取超时时间
-            read-timeout: 30000
+            read-timeout: 4000
