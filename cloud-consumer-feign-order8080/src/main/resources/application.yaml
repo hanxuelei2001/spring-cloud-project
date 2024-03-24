@@ -23,6 +23,13 @@ spring:
             connect-timeout: 4000
             # 为专属的服务设置读取超时时间
             read-timeout: 4000
+      compression:
+        request:
+          enabled: true
+          min-request-size: 2048 # 最小触发的压缩的大小
+          mime-types: text/xml,application/xml,application/json # 触发压缩的类型
+        response:
+          enabled: true
 
       # Apache Httpclient5 配置开启
       httpclient:
