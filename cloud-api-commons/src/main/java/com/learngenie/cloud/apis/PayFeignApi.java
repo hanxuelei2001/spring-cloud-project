@@ -53,4 +53,12 @@ public interface PayFeignApi {
 	 */
 	@GetMapping("/api/v1/pay/get/all")
 	ResultData<List<PayDto>> getAll();
+
+	/**
+	 * 断路器
+	 * @param id
+	 * @return {@link String}
+	 */
+	@GetMapping(value = "/pay/circuit/{id}")
+	String myCircuit(@PathVariable("id") Integer id);
 }

@@ -19,6 +19,19 @@
 
     <dependencies>
 
+        <!--resilience4j-circuitbreaker-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
+        </dependency>
+
+        <!--由于断路保护等需要 AOP 实现，所以需要导入 AOP 的包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+
         <!--httpclient 5-->
         <dependency>
             <groupId>org.apache.httpcomponents.client5</groupId>

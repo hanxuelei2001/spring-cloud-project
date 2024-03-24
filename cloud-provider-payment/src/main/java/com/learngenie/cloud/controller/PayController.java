@@ -59,7 +59,7 @@ public class PayController {
     @Operation(summary = "查询", description = "查询支付流水方法， id 作为路径参数")
     public ResultData<Pay> getPay(@PathVariable("id") Integer id, @Value("${info}") String info) throws InterruptedException {
         log.info("info: {}, port: {}",info, port);
-        //TimeUnit.SECONDS.sleep(10);  // 测试超时重试
+        TimeUnit.SECONDS.sleep(10);  // 测试超时重试
         return ResultData.success(payService.getById(id));
     }
 
