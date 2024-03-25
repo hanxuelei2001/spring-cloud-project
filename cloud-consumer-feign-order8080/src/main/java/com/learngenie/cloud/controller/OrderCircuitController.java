@@ -1,6 +1,7 @@
 package com.learngenie.cloud.controller;
 
 import com.learngenie.cloud.apis.PayFeignApi;
+import io.github.resilience4j.bulkhead.annotation.Bulkhead;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,5 +27,11 @@ public class OrderCircuitController {
      */
     public String myCircuitFallback(Integer id, Throwable throwable) {
         return id + "myCircuitFallback 系统繁忙，请稍后重试";
+    }
+
+    @GetMapping(value = "/feign/pay/bulkhead/{id}")
+    @Bulkhead(name = "cloud-payment-service", fallbackMethod = "myCircuitFallback", type = Bulkhead.Type.SEMAPHORE)
+    public String myBulkhead(@PathVariable("id") Integer id) {
+        return payFeignApi.myBulkhead(id);
     }
 }

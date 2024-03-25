@@ -19,6 +19,12 @@
 
     <dependencies>
 
+        <!--舱闭隔离-->
+        <dependency>
+            <groupId>io.github.resilience4j</groupId>
+            <artifactId>resilience4j-bulkhead</artifactId>
+        </dependency>
+
         <!--resilience4j-circuitbreaker-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

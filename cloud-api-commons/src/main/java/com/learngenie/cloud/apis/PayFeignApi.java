@@ -61,4 +61,13 @@ public interface PayFeignApi {
 	 */
 	@GetMapping(value = "/pay/circuit/{id}")
 	String myCircuit(@PathVariable("id") Integer id);
+
+
+	/**
+	 * 舱闭
+	 * @param id
+	 * @return {@link String}
+	 */
+	@GetMapping(value = "/pay/bulkhead/{id}")
+	public String myBulkhead(@PathVariable("id") Integer id);
 }

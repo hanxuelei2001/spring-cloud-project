@@ -91,4 +91,12 @@ resilience4j:
     instances:
       cloud-payment-service:
         base-config: default
+  bulkhead: # 舱闭隔离
+    configs:
+      default:
+        max-concurrent-calls: 2
+        max-wait-duration: 1s
+    instances:
+      cloud-payment-service:
+        base-config: default
 
