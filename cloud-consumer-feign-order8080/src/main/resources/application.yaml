@@ -40,7 +40,7 @@ spring:
         enabled: true
         # 没开分组永远不用分组的配置，精确优先，分组次之，默认最后
         group:
-          enabled: true
+          enabled: false
 
 # 开启日志打印
 #logging:
@@ -91,12 +91,20 @@ resilience4j:
     instances:
       cloud-payment-service:
         base-config: default
-  bulkhead: # 舱闭隔离
+#  bulkhead: # 舱闭隔离
+#    configs:
+#      default:
+#        max-concurrent-calls: 2
+#        max-wait-duration: 1s
+#    instances:
+#      cloud-payment-service:
+#        base-config: default
+  thread-pool-bulkhead: # 使用固定大小的线程数
     configs:
       default:
-        max-concurrent-calls: 2
-        max-wait-duration: 1s
+        max-thread-pool-size: 1
+        core-thread-pool-size: 1
+        queue-capacity: 1
     instances:
       cloud-payment-service:
         base-config: default
-

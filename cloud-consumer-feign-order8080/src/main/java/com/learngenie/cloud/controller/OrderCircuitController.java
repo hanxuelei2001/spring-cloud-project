@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.TimeUnit;
+
 @RestController
 public class OrderCircuitController {
 
@@ -29,9 +32,18 @@ public class OrderCircuitController {
         return id + "myCircuitFallback 系统繁忙，请稍后重试";
     }
 
+    //@GetMapping(value = "/feign/pay/bulkhead/{id}")
+    //@Bulkhead(name = "cloud-payment-service", fallbackMethod = "myCircuitFallback", type = Bulkhead.Type.SEMAPHORE)
+    //public String myBulkhead(@PathVariable("id") Integer id) {
+    //    return payFeignApi.myBulkhead(id);
+    //}
+
     @GetMapping(value = "/feign/pay/bulkhead/{id}")
-    @Bulkhead(name = "cloud-payment-service", fallbackMethod = "myCircuitFallback", type = Bulkhead.Type.SEMAPHORE)
-    public String myBulkhead(@PathVariable("id") Integer id) {
-        return payFeignApi.myBulkhead(id);
+    @Bulkhead(name = "cloud-payment-service", fallbackMethod = "myCircuitFallback", type = Bulkhead.Type.THREADPOOL)
+    public CompletableFuture<String> myBulkhead2(@PathVariable("id") Integer id) throws InterruptedException {
+        TimeUnit.SECONDS.sleep(10);
+        return CompletableFuture.supplyAsync(() -> {
+            return payFeignApi.myBulkhead(id);
+        });
     }
 }
