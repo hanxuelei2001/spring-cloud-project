@@ -1,0 +1,8 @@
+2023-05-07 02:00:34,513 WARN [master-db] jdbc:mysql://haust-mysql:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false
+
+2023-05-07 02:00:34,748 WARN isQuickStart:false
+
+2023-05-07 02:03:20,341 WARN [master-db] jdbc:mysql://haust-mysql:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false
+
+2023-05-07 02:03:20,565 WARN isQuickStart:false
+

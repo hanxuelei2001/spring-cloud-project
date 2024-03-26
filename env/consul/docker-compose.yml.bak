@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  consul:
+    image: hashicorp/consul:1.18
+    container_name: consule
+    ports:
+      - "8500:8500"
+      - "8600:8600/tcp"
+      - "8600:8600/udp"
+    command: "agent -bootstrap-expect=1" # 启动一个实例
+    volumes:
+      - ./data:/consul/data # 绑定 data
+        # - ./server.json:consul/config/server1.json:ro
+        # - ./certs/:consul/config/certs/:ro

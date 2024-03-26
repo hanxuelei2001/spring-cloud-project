@@ -1,0 +1,42 @@
+alive: consul-server1 192.168.0.3:8301
+alive: consul-server2 192.168.0.4:8301
+alive: consul-server3 192.168.0.2:8301
+clock: 2
+event-clock: 1
+alive: consul-server1 192.168.32.2:8301
+alive: consul-server3 192.168.32.3:8301
+clock: 3
+alive: consul-server2 192.168.32.4:8301
+clock: 4
+event-clock: 2
+alive: consul-server1 192.168.48.3:8301
+alive: consul-server2 192.168.48.2:8301
+alive: consul-server3 192.168.48.4:8301
+clock: 5
+clock: 6
+event-clock: 3
+alive: consul-server1 192.168.64.3:8301
+alive: consul-server3 192.168.64.2:8301
+clock: 7
+alive: consul-server2 192.168.64.4:8301
+clock: 9
+event-clock: 4
+alive: consul-server1 192.168.64.3:8301
+alive: consul-server3 192.168.64.2:8301
+alive: consul-server2 192.168.64.4:8301
+clock: 10
+clock: 11
+event-clock: 5
+alive: consul-server1 192.168.64.4:8301
+alive: consul-server3 192.168.64.3:8301
+clock: 12
+alive: consul-server2 192.168.64.2:8301
+clock: 13
+event-clock: 6
+event-clock: 7
+alive: consul-server1 192.168.64.4:8301
+alive: consul-server3 192.168.64.2:8301
+alive: consul-server2 192.168.64.3:8301
+clock: 15
+event-clock: 8
+clock: 16

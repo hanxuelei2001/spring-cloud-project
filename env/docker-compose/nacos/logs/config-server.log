@@ -1,0 +1,18 @@
+2024-03-21 00:09:24,474 INFO notifyConnectTimeout:100
+
+2024-03-21 00:09:24,478 INFO notifySocketTimeout:200
+
+2024-03-21 00:09:24,479 INFO isHealthCheck:true
+
+2024-03-21 00:09:24,479 INFO maxHealthCheckFailCount:12
+
+2024-03-21 00:09:24,479 INFO maxContent:10485760
+
+2024-03-21 00:09:39,299 WARN DumpService start
+
+2024-03-21 00:09:39,300 INFO start clear all config-info.
+
+2024-03-21 00:09:39,300 WARN clear all config-info failed.
+
+2024-03-21 00:09:39,300 WARN clear all config-info-tenant failed.
+

@@ -1,0 +1,72 @@
+2023-05-07 02:00:23,615 INFO shutdown jraft server
+
+2023-05-07 02:00:23,620 INFO ========= The raft protocol is starting to close =========
+
+2023-05-07 02:00:23,676 INFO ========= The raft protocol has been closed =========
+
+2023-05-07 02:00:36,643 INFO Initializes the Raft protocol, raft-config info : {}
+
+2023-05-07 02:00:37,257 INFO ========= The raft protocol is starting... =========
+
+2023-05-07 02:00:37,578 INFO ========= The raft protocol start finished... =========
+
+2023-05-07 02:00:37,605 INFO create raft group : naming_persistent_service_v2
+
+2023-05-07 02:00:38,718 INFO snapshot start to load from : /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_4
+
+2023-05-07 02:00:38,754 INFO snapshot success to load from : /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_4
+
+2023-05-07 02:00:38,757 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:00:38,912 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='2c303e1997d3:7848', term=5, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:00:38,927 INFO create raft group : naming_instance_metadata
+
+2023-05-07 02:00:39,064 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:00:39,087 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='2c303e1997d3:7848', term=5, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:00:39,089 INFO create raft group : naming_service_metadata
+
+2023-05-07 02:00:39,153 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:00:39,197 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='2c303e1997d3:7848', term=5, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:03:09,781 INFO shutdown jraft server
+
+2023-05-07 02:03:09,783 INFO ========= The raft protocol is starting to close =========
+
+2023-05-07 02:03:09,833 INFO ========= The raft protocol has been closed =========
+
+2023-05-07 02:03:22,513 INFO Initializes the Raft protocol, raft-config info : {}
+
+2023-05-07 02:03:23,091 INFO ========= The raft protocol is starting... =========
+
+2023-05-07 02:03:23,212 INFO ========= The raft protocol start finished... =========
+
+2023-05-07 02:03:23,257 INFO create raft group : naming_persistent_service_v2
+
+2023-05-07 02:03:24,306 INFO snapshot start to load from : /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_4
+
+2023-05-07 02:03:24,315 INFO snapshot success to load from : /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_4
+
+2023-05-07 02:03:24,317 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:03:24,397 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='2c303e1997d3:7848', term=6, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:03:24,406 INFO create raft group : naming_instance_metadata
+
+2023-05-07 02:03:24,464 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:03:24,487 INFO create raft group : naming_service_metadata
+
+2023-05-07 02:03:24,523 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:03:24,536 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='2c303e1997d3:7848', term=6, raftClusterInfo=[2c303e1997d3:7848]}
+
+2023-05-07 02:22:54,612 INFO shutdown jraft server
+
+2023-05-07 02:22:54,614 INFO ========= The raft protocol is starting to close =========
+
+2023-05-07 02:22:54,661 INFO ========= The raft protocol has been closed =========
+

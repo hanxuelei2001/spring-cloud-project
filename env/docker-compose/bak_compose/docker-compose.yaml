@@ -1,0 +1,525 @@
+version: "3.5"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+      - ./mysql/conf.d:/etc/mysql/conf.d
+      - ./mysql/initdb:/docker-entrypoint-initdb.d
+
+  minio:
+    image: minio/minio:RELEASE.2021-06-17T00-10-46Z
+    container_name: minio
+    restart: always
+    command: server /data
+    ports:
+      - 9000:9000
+    volumes:
+      - ./minio/data:/data
+    environment:
+      - MINIO_ROOT_USER=admin
+      - MINIO_ROOT_PASSWORD=admin123456
+
+  redis:
+    image: redis:6.2
+    container_name: redis
+    restart: always
+    ports:
+      - 6379:6379
+  
+  nacos:
+    image: nacos/nacos-server:v2.2.0-slim
+    container_name: nacos
+    depends_on:
+      - mysql
+    ports:
+      - 8848:8848
+      - 9848:9848
+      - 9849:9849
+    environment:
+      - JVM_XMS=256m
+      - JVM_XMX=256m
+      - MODE=standalone
+      - PREFER_HOST_MODE=hostname
+      - SPRING_DATASOURCE_PLATFORM=mysql
+      - MYSQL_SERVICE_HOST=192.168.88.128
+      - MYSQL_SERVICE_DB_NAME=nacos
+      - MYSQL_SERVICE_USER=root
+      - MYSQL_SERVICE_PASSWORD=root
+    volumes:
+      - ./nacos/logs:/home/nacos/logs
+  shenyu-bootstrap:
+    image: apache/shenyu-bootstrap:2.5.1
+    container_name: shenyu-bootstrap
+    ports:
+      - "9195:9195"
+    volumes:
+      - ./shenyu-bootstrap/logs:/opt/shenyu-bootstrap/logs
+      - ./shenyu-bootstrap/conf:/opt/shenyu-bootstrap/conf
+      - ./shenyu-bootstrap/ext-lib:/opt/shenyu-bootstrap/ext-lib
+    depends_on:
+      - shenyu-admin
+    environment:
+      - shenyu.sync.websocket.urls=ws://192.168.88.128:9095/websocket
+      - spring.main.allow-bean-definition-overriding=true
+    healthcheck:
+      test: [ "CMD", "wget", "http://192.168.88.128:9195/actuator/health" ]
+      timeout: 2s
+      retries: 30
+  shenyu-admin:
+    image: apache/shenyu-admin:2.5.1
+    container_name: shenyu-admin
+    depends_on:
+      - mysql
+    volumes:
+      - ./shenyu-admin/logs:/opt/shenyu-admin/logs
+      - ./shenyu-admin/conf:/opt/shenyu-admin/conf
+      - ./shenyu-admin/ext-lib:/opt/shenyu-admin/ext-lib
+    environment: 
+      - SPRING_PROFILES_ACTIVE=mysql
+      - spring.datasource.url=jdbc:mysql://192.168.88.128:3306/shenyu?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull
+      - spring.datasource.username=root
+      - spring.datasource.password=root
+    ports:
+      - "9095:9095"
+    healthcheck:
+      test: [ "CMD-SHELL", "wget -q -O - http://192.168.88.128:9095/actuator/health | grep UP || exit 1" ]
+      timeout: 2s
+      retries: 30
+
+  rocketmq-namesrv:
+    image: apache/rocketmq:4.9.4
+    container_name: rocketmq-namesrv
+    ports:
+      - 9876:9876
+    volumes:
+      - ./rocketmq/namesrv/logs:/home/rocketmq/logs
+      - ./rocketmq/namesrv/store:/home/rocketmq/store
+    environment:
+      JAVA_OPT_EXT: "-Duser.home=/home/rocketmq -Xms512M -Xmx512M -Xmn128M"
+    command: sh mqnamesrv
+    networks:
+      - rocketmq
+
+  rocketmq-broker-1:
+    image: apache/rocketmq:4.9.4
+    container_name: rocketmq-broker-1
+    ports:
+      - "10911:10911"
+    volumes:
+      - ./rocketmq/broker/logs:/home/rocketmq/rocketmq-4.9.4/logs
+      - ./rocketmq/broker/store:/home/rocketmq/rocketmq-4.9.4/store
+      - ./rocketmq/broker/conf/broker.conf:/home/rocketmq/rocketmq-4.9.4/broker.conf
+    environment:
+      TZ: Asia/Shanghai
+      JAVA_OPT_EXT: "-server -Xms512m -Xmx512m -Xmn512m"
+    command: sh mqbroker -c /home/rocketmq/rocketmq-4.9.4/broker.conf  -n rocketmq-namesrv:9876 autoCreateTopicEnable=true &
+    depends_on:
+      - rocketmq-namesrv
+    networks:
+      - rocketmq
+  rocketmq-broker-2:
+    image: apache/rocketmq:4.9.4
+    container_name: rocketmq-broker-2
+    ports:
+      - "20911:20911"
+    volumes:
+      - ./rocketmq/broker1/logs:/home/rocketmq/rocketmq-4.9.4/logs
+      - ./rocketmq/broker1/store:/home/rocketmq/rocketmq-4.9.4/store
+      - ./rocketmq/broker1/conf/broker.conf:/home/rocketmq/rocketmq-4.9.4/broker.conf
+    environment:
+      TZ: Asia/Shanghai
+      JAVA_OPT_EXT: "-server -Xms512m -Xmx512m -Xmn512m"
+    command: sh mqbroker -c /home/rocketmq/rocketmq-4.9.4/broker.conf -n rocketmq-namesrv:9876 autoCreateTopicEnable=true &
+    depends_on:
+      - rocketmq-namesrv
+    networks:
+      - rocketmq
+
+  rocketmq-dashboard:
+    image: apacherocketmq/rocketmq-dashboard:1.0.0
+    container_name: rocketmq-dashboard
+    ports:
+      - 8180:8080
+    environment:
+      - JAVA_OPTS=-Drocketmq.namesrv.addr=rocketmq-namesrv:9876 -Dcom.rocketmq.sendMessageWithVIPChannel=false
+    depends_on:
+      - rocketmq-namesrv
+    networks:
+      - rocketmq
+
+  shop-groupon-rpc:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-groupon-rpc:v1
+    container_name: shop-groupon-rpc
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_groupon?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-user-rpc:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-user-rpc:v1
+    container_name: shop-user-rpc
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-cart-rpc:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-cart-rpc:v1
+    container_name: shop-cart-rpc
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_cart?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-order-rpc:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-order-rpc:v1
+    container_name: shop-order-rpc
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_order?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-admin-rpc:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-admin-rpc:v1
+    container_name: shop-admin-rpc
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_admin?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-coupon-rpc:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-coupon-rpc:v1
+    container_name: shop-coupon-rpc
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_coupon?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-search-rpc:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-search-rpc:v1
+    container_name: shop-search-rpc
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_search?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-product-rpc:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-product-rpc:v1
+    container_name: shop-product-rpc
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_product?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+
+#        api 中的所有的服务都应该等rpc服务启动之后在进行启动
+  shop-groupon-api:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-groupon-api:v1
+    container_name: shop-groupon-api
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_groupon?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+      - shop-groupon-rpc
+      - shop-admin-rpc
+      - shop-cart-rpc
+      - shop-order-rpc
+      - shop-coupon-rpc
+      - shop-user-rpc
+      - shop-search-rpc
+      - shop-product-rpc
+      - shop-third-party
+      - shop-system
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+
+  shop-user-api:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-user-api:v1
+    container_name: shop-user-api
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+      - shop-groupon-rpc
+      - shop-admin-rpc
+      - shop-cart-rpc
+      - shop-order-rpc
+      - shop-coupon-rpc
+      - shop-user-rpc
+      - shop-search-rpc
+      - shop-product-rpc
+      - shop-third-party
+      - shop-system
+      - shop-order-api
+      - shop-product-api
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-cart-api:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-cart-api:v1
+    container_name: shop-cart-api
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_cart?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+      - shop-groupon-rpc
+      - shop-admin-rpc
+      - shop-cart-rpc
+      - shop-order-rpc
+      - shop-coupon-rpc
+      - shop-user-rpc
+      - shop-search-rpc
+      - shop-product-rpc
+      - shop-third-party
+      - shop-system
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-order-api:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-order-api:v1
+    container_name: shop-order-api
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_order?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+      - shop-groupon-rpc
+      - shop-admin-rpc
+      - shop-cart-rpc
+      - shop-order-rpc
+      - shop-coupon-rpc
+      - shop-user-rpc
+      - shop-search-rpc
+      - shop-product-rpc
+      - shop-third-party
+      - shop-system
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-admin-api:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-admin-api:v1
+    container_name: shop-admin-api
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_admin?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+      - shop-groupon-rpc
+      - shop-admin-rpc
+      - shop-cart-rpc
+      - shop-order-rpc
+      - shop-coupon-rpc
+      - shop-user-rpc
+      - shop-search-rpc
+      - shop-product-rpc
+      - shop-third-party
+      - shop-system
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-coupon-api:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-coupon-api:v1
+    container_name: shop-coupon-api
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_coupon?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+      - shop-groupon-rpc
+      - shop-admin-rpc
+      - shop-cart-rpc
+      - shop-order-rpc
+      - shop-coupon-rpc
+      - shop-user-rpc
+      - shop-search-rpc
+      - shop-product-rpc
+      - shop-third-party
+      - shop-system
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-search-api:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-search-api:v1
+    container_name: shop-search-api
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_search?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+      - shop-groupon-rpc
+      - shop-admin-rpc
+      - shop-cart-rpc
+      - shop-order-rpc
+      - shop-coupon-rpc
+      - shop-user-rpc
+      - shop-search-rpc
+      - shop-product-rpc
+      - shop-third-party
+      - shop-system
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-product-api:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-product-api:v1
+    container_name: shop-product-api
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_product?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+      - shop-groupon-rpc
+      - shop-admin-rpc
+      - shop-cart-rpc
+      - shop-order-rpc
+      - shop-coupon-rpc
+      - shop-user-rpc
+      - shop-search-rpc
+      - shop-product-rpc
+      - shop-third-party
+      - shop-system
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-system:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-system:v1
+    container_name: shop-system
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_system?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+  shop-third-party:
+    image: registry.cn-hangzhou.aliyuncs.com/hanxuelei/shop-third-party:v1
+    container_name: shop-third-party
+    environment:
+      - JAVA_OPTS=-Dspring.datasource.druid.url=jdbc:mysql://mysql/shop_common?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull -Dspring.redis.host=redis -Ddubbo.registry.address=nacos://nacos:8848 -Dshenyu.register.serverLists=http://shenyu-admin:9095 -Xms500m -Xmx500m -Xmn500m
+    depends_on:
+      - mysql
+      - redis
+      - nacos
+      - shenyu-admin
+      - shenyu-bootstrap
+    networks:
+      - nacos
+      - rocketmq
+      - gateway
+
+
+networks:
+  rocketmq:
+    name: rocketmq
+    driver: bridge
+
+  gateway:
+    name: gateway
+    driver: bridge
+  nacos:
+    name: serviceDiscovery
+    driver: bridge

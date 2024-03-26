@@ -1,0 +1,48 @@
+2023-04-15 13:24:13,072 INFO push [1] clients ,groupKey=[com.haust.service.service.order.DtsCartService+mapping]
+
+2023-04-15 13:24:38,298 INFO push [1] clients ,groupKey=[com.haust.service.service.coupon.CouponVerifyService+mapping]
+
+2023-04-15 13:24:38,607 INFO push [2] clients ,groupKey=[com.haust.service.service.coupon.DtsCouponUserService+mapping]
+
+2023-04-15 13:24:38,914 INFO push [1] clients ,groupKey=[com.haust.service.service.coupon.DtsCouponService+mapping]
+
+2023-04-15 13:24:40,729 INFO push [1] clients ,groupKey=[com.haust.service.service.order.DtsGrouponService+mapping]
+
+2023-04-15 13:24:41,038 INFO push [3] clients ,groupKey=[com.haust.service.service.product.DtsGrouponRulesService+mapping]
+
+2023-04-15 13:24:43,867 INFO push [2] clients ,groupKey=[com.haust.service.service.order.DtsOrderService+mapping]
+
+2023-04-15 13:24:44,174 INFO push [2] clients ,groupKey=[com.haust.service.service.order.DtsOrderGoodsService+mapping]
+
+2023-04-15 13:24:48,323 INFO push [1] clients ,groupKey=[com.haust.service.service.product.DtsGoodsAttributeService+mapping]
+
+2023-04-15 13:24:48,633 INFO push [1] clients ,groupKey=[com.haust.service.service.product.DtsGoodsSpecificationService+mapping]
+
+2023-04-15 13:24:48,838 INFO push [3] clients ,groupKey=[com.haust.service.service.product.DtsGoodsProductService+mapping]
+
+2023-04-15 13:24:49,143 INFO push [3] clients ,groupKey=[com.haust.service.service.product.DtsGoodsService+mapping]
+
+2023-04-15 13:24:49,350 INFO push [2] clients ,groupKey=[com.haust.service.service.product.DtsBrandService+mapping]
+
+2023-04-15 13:24:49,858 INFO push [1] clients ,groupKey=[com.haust.service.service.product.DtsAdService+mapping]
+
+2023-04-15 13:24:50,166 INFO push [1] clients ,groupKey=[com.haust.service.service.product.DtsCategoryService+mapping]
+
+2023-04-15 13:24:50,369 INFO push [1] clients ,groupKey=[com.haust.service.service.search.DtsSearchHistoryService+mapping]
+
+2023-04-15 13:24:50,674 INFO push [1] clients ,groupKey=[com.haust.service.service.search.DtsKeywordService+mapping]
+
+2023-04-15 13:24:53,091 INFO push [2] clients ,groupKey=[com.haust.service.service.user.DtsCollectService+mapping]
+
+2023-04-15 13:24:53,297 INFO push [3] clients ,groupKey=[com.haust.service.service.user.DtsAddressService+mapping]
+
+2023-04-15 13:24:53,603 INFO push [2] clients ,groupKey=[com.haust.service.service.user.DtsAccountService+mapping]
+
+2023-04-15 13:24:53,806 INFO push [2] clients ,groupKey=[com.haust.service.service.user.DtsFootprintService+mapping]
+
+2023-04-15 13:24:54,830 INFO push [3] clients ,groupKey=[com.haust.service.service.user.DtsCommentService+mapping]
+
+2023-04-15 13:24:55,253 INFO push [4] clients ,groupKey=[com.haust.service.service.user.DtsUserService+mapping]
+
+2023-05-01 22:48:46,690 INFO push [1] clients ,groupKey=[com.haust.service.service.coupon.DtsCouponUserService+mapping]
+

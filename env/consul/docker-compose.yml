@@ -1,0 +1,43 @@
+version: '3.5'
+services:
+  
+  consul-server1:
+    image: hashicorp/consul:1.18
+    container_name: consul-server1
+    volumes:
+     - ./server1.json:/consul/config/server1.json
+     - ./certs/:/consul/config/certs/
+     - ./data/consul1/:/consul/data/
+    networks:
+      - consul
+    ports:
+      - "8500:8500"
+      - "8600:8600/tcp"
+      - "8600:8600/udp"
+    command: "agent -bootstrap-expect=3"
+
+  consul-server2:
+    image: hashicorp/consul:1.18
+    container_name: consul-server2
+    volumes:
+     - ./server2.json:/consul/config/server2.json
+     - ./certs/:/consul/config/certs/
+     - ./data/consul2/:/consul/data/
+    networks:
+      - consul
+    command: "agent -bootstrap-expect=3"
+
+  consul-server3:
+    image: hashicorp/consul:1.18
+    container_name: consul-server3
+    volumes:
+     - ./server3.json:/consul/config/server3.json
+     - ./certs/:/consul/config/certs/
+     - ./data/consul3/:/consul/data/
+    networks:
+      - consul
+    command: "agent -bootstrap-expect=3"
+
+networks:
+  consul:
+    driver: bridge
