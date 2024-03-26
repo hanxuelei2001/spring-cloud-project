@@ -12,32 +12,34 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
-// 如果是对内的，则使用服务名
-@FeignClient(value = "cloud-payment-service")
-public interface PayFeignApi {
+// 如果是对外的，则使用网关
+@FeignClient(value = "cloud-gateway")
+public interface GateFeignApi {
+
+
 	/**
 	 * 新增一条 pay 记录
 	 * @param payDto
 	 * @return {@link ResultData}<{@link Integer}>
 	 */
-	@PostMapping("/api/v1/pay/add")
-	ResultData<Integer> addPay(@RequestBody PayDto payDto);
+	@PostMapping("/pay/gateway/add")
+	ResultData<Integer> gatewayAdd(@RequestBody PayDto payDto);
 
 	/**
 	 * 通过 id 删除一条流水记录
 	 * @param id
 	 * @return {@link ResultData}<{@link Integer}>
 	 */
-	@DeleteMapping("/api/v1/pay/del/{id}")
-	ResultData<Integer> deletePay(@PathVariable("id") Integer id);
+	@DeleteMapping("/pay/gateway/del/{id}")
+	ResultData<Integer> gatewayDeletePay(@PathVariable("id") Integer id);
 
 	/**
 	 * 通过 id 更新一条流水记录
 	 * @param payDto
 	 * @return {@link ResultData}<{@link Integer}>
 	 */
-	@PutMapping("/api/v1/pay/update")
-	ResultData<Integer> updatePay(@RequestBody PayDto payDto);
+	@PutMapping("/pay/gateway/update")
+	ResultData<Integer> gatewayUpdatePay(@RequestBody PayDto payDto);
 
 
 	/**
@@ -45,38 +47,13 @@ public interface PayFeignApi {
 	 * @param id
 	 * @return {@link ResultData}<{@link PayDto}>
 	 */
-	@GetMapping("/api/v1/pay/get/{id}")
-	ResultData<PayDto> getPay(@PathVariable("id") Integer id);
+	@GetMapping("/pay/gateway/get/{id}")
+	ResultData<PayDto> gatewayGetPay(@PathVariable("id") Integer id);
 
 	/**
 	 * 获取所有的流水记录
 	 * @return {@link ResultData}<{@link List}<{@link PayDto}>>
 	 */
-	@GetMapping("/api/v1/pay/get/all")
-	ResultData<List<PayDto>> getAll();
-
-	/**
-	 * 断路器
-	 * @param id
-	 * @return {@link String}
-	 */
-	@GetMapping(value = "/pay/circuit/{id}")
-	String myCircuit(@PathVariable("id") Integer id);
-
-
-	/**
-	 * 舱闭
-	 * @param id
-	 * @return {@link String}
-	 */
-	@GetMapping(value = "/pay/bulkhead/{id}")
-	public String myBulkhead(@PathVariable("id") Integer id);
-
-	/**
-	 * 链路追踪
-	 * @param id
-	 * @return {@link String}
-	 */
-	@GetMapping(value = "/pay/micrometer/{id}")
-	public String myMicrometer(@PathVariable("id") String id);
+	@GetMapping("/pay/gateway/get/all")
+	ResultData<List<PayDto>> gatewayGetAll();
 }
