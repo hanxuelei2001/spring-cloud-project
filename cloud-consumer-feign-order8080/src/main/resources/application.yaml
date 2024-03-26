@@ -69,28 +69,28 @@ spring:
 #      cloud-payment-service:
 #        base-config: default
 
-resilience4j:
-  timelimiter:
-    configs:
-      default:
-        timeout-duration: 10s # 神坑的位置，timelimiter 默认是 1s，超过一秒就超时异常了，配置了降级，就走降级的逻辑
-  circuitbreaker:
-    configs:
-      default:
-        failure-rate-threshold: 50 # 设置 50% 的调用失败时打开断路器，超过失败请求百分比 CircuitBreak 变为 Open 状态
-        slow-call-duration-threshold: 2s # 慢调用时间阈值，高于这个阈值被视为慢调用，并增加慢调用比例
-        slow-call-rate-threshold: 30 # 慢调用比例，把超过 slow-call-duration-threshold 被称为慢调用，如果调用的比例大于 30%
-        sliding-window-type: time_based # 滑动窗口的类型
-        sliding-window-size: 2 # 滑动窗口的大小，配置 COUNT_BASE 表示 6 个请求，配置 TIME_BASE 表示 6 秒
-        minimum-number-of-calls: 2 # 断路器计算失败或者慢调用率之前所需的最小样本（每个滑动窗口的周期）。如果 minimumNumberOfCalls 为 10，代表必须全部成功
-        # automatic-transition-from-open-to-half-open-enabled: true # 是否允许从开启状态到半开状态
-        wait-duration-in-open-state: 5s # 从开启到半开需要多长时间
-        permitted-number-of-calls-in-half-open-state: 2 # 半开状态允许的请求数目
-        record-exceptions:
-          - java.lang.Exception
-    instances:
-      cloud-payment-service:
-        base-config: default
+#resilience4j:
+#  timelimiter:
+#    configs:
+#      default:
+#        timeout-duration: 10s # 神坑的位置，timelimiter 默认是 1s，超过一秒就超时异常了，配置了降级，就走降级的逻辑
+#  circuitbreaker:
+#    configs:
+#      default:
+#        failure-rate-threshold: 50 # 设置 50% 的调用失败时打开断路器，超过失败请求百分比 CircuitBreak 变为 Open 状态
+#        slow-call-duration-threshold: 2s # 慢调用时间阈值，高于这个阈值被视为慢调用，并增加慢调用比例
+#        slow-call-rate-threshold: 30 # 慢调用比例，把超过 slow-call-duration-threshold 被称为慢调用，如果调用的比例大于 30%
+#        sliding-window-type: time_based # 滑动窗口的类型
+#        sliding-window-size: 2 # 滑动窗口的大小，配置 COUNT_BASE 表示 6 个请求，配置 TIME_BASE 表示 6 秒
+#        minimum-number-of-calls: 2 # 断路器计算失败或者慢调用率之前所需的最小样本（每个滑动窗口的周期）。如果 minimumNumberOfCalls 为 10，代表必须全部成功
+#        # automatic-transition-from-open-to-half-open-enabled: true # 是否允许从开启状态到半开状态
+#        wait-duration-in-open-state: 5s # 从开启到半开需要多长时间
+#        permitted-number-of-calls-in-half-open-state: 2 # 半开状态允许的请求数目
+#        record-exceptions:
+#          - java.lang.Exception
+#    instances:
+#      cloud-payment-service:
+#        base-config: default
 #  bulkhead: # 舱闭隔离
 #    configs:
 #      default:
@@ -99,12 +99,24 @@ resilience4j:
 #    instances:
 #      cloud-payment-service:
 #        base-config: default
-  thread-pool-bulkhead: # 使用固定大小的线程数
+#  thread-pool-bulkhead: # 使用固定大小的线程数
+#    configs:
+#      default:
+#        max-thread-pool-size: 1
+#        core-thread-pool-size: 1
+#        queue-capacity: 1
+#    instances:
+#      cloud-payment-service:
+#        base-config: default
+
+# 限流器
+resilience4j:
+  ratelimiter:
     configs:
       default:
-        max-thread-pool-size: 1
-        core-thread-pool-size: 1
-        queue-capacity: 1
+        limit-for-period: 2 # 再一次刷新周期内，最多有多少个请求数
+        limit-refresh-period: 1s # 限流器每间隔指定时间进行一次刷新，将请求数目重新设置为 limit-for-period
+        timeout-duration: 1 # 线程默认等待的时间
     instances:
       cloud-payment-service:
         base-config: default
