@@ -70,4 +70,12 @@ public interface PayFeignApi {
 	 */
 	@GetMapping(value = "/pay/bulkhead/{id}")
 	public String myBulkhead(@PathVariable("id") Integer id);
+
+	/**
+	 * 链路追踪
+	 * @param id
+	 * @return {@link String}
+	 */
+	@GetMapping(value = "/pay/micrometer/{id}")
+	public String myMicrometer(@PathVariable("id") String id);
 }
