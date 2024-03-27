@@ -19,6 +19,7 @@ spring:
           uri: lb://cloud-payment-service
           predicates:
             - Path=/pay/gateway/get/** # 断言，路径相匹配的进行路由
+              - Genie=diamond # 自定义的断言器
             # - Method=GET,POST 要求请求方法必须是给定的请求方法才可以
             # - RemoteAddr=192.168.31.1/24 # 只有指定的 ip 地址的人才可以访问, 即 ip 地址必须给定的范围内的才可以访问过来，同时使用的 ip 是 192.168.31 开头，不能使用 localhost
             # - Query=username, \d+ # 要有参数名 username 并且值还要是整数才能路由
