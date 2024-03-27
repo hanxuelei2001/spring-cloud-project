@@ -19,3 +19,12 @@ spring:
           uri: lb://cloud-payment-service
           predicates:
             - Path=/pay/gateway/get/** # 断言，路径相匹配的进行路由
+            # - Method=GET,POST 要求请求方法必须是给定的请求方法才可以
+            # - RemoteAddr=192.168.31.1/24 # 只有指定的 ip 地址的人才可以访问, 即 ip 地址必须给定的范围内的才可以访问过来，同时使用的 ip 是 192.168.31 开头，不能使用 localhost
+            # - Query=username, \d+ # 要有参数名 username 并且值还要是整数才能路由
+            # - Host=**.learngenie.com # 接受一组参数，host 必须是指定的
+            # - Header=X-Request-Id, \d+ # 请求头中要有 X-Request-Id ，并且 X-Request-Id 的值是整数的正则表达式
+            # - Cookie=username,hanxuelei # cookie ,
+            # - Between=2024-03-27T20:57:00.310573941+08:00[GMT+08:00], 2024-03-27T21:57:00.310573941+08:00[GMT+08:00] 在指定的时间范围内可以访问
+            # - After=2024-03-27T20:54:00.310573941+08:00[GMT+08:00] # 在指定的时间之后可以访问
+            # - Before=2024-03-27T20:55:00.310573941+08:00[GMT+08:00] # 在指定的时间之前可以访问
