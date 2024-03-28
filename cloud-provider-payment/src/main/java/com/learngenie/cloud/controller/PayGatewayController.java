@@ -1,5 +1,7 @@
 package com.learngenie.cloud.controller;
 
+import cn.hutool.core.date.DateUnit;
+import cn.hutool.core.date.DateUtil;
 import com.learngenie.cloud.convert.DtoConvert;
 import com.learngenie.cloud.entities.Pay;
 import com.learngenie.cloud.entities.PayDto;
@@ -7,6 +9,7 @@ import com.learngenie.cloud.response.ResultData;
 import com.learngenie.cloud.service.PayService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -19,6 +22,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Enumeration;
+import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -66,4 +71,27 @@ public class PayGatewayController {
         return ResultData.success(payService.getAll());
     }
 
+    @GetMapping(value = "filter")
+    public ResultData<String> getGatewayFilter(HttpServletRequest request) {
+        String result = "";
+
+        Enumeration<String> headerNames = request.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            String headName = headerNames.nextElement();
+            String headerValue = request.getHeader(headName);
+            log.info("请求头是 ： {}，请求头的值是 ： {}", headName, headerValue);
+            if (headName.equalsIgnoreCase("X-Request-learngenie1") ||
+                    headName.equalsIgnoreCase("X-Request-learngenie2")) {
+                result = result + headName + "\t" + headerValue + "  ";
+            }
+        }
+
+        Enumeration<String> parameterNames = request.getParameterNames();
+        while(parameterNames.hasMoreElements()) {
+            String parameter = parameterNames.nextElement();
+            String parameterValue = request.getParameter(parameter);
+            log.info("请求参数 ： {}，请求参数的值是 ： {}", parameter, parameterValue);
+        }
+        return ResultData.success("gatewayFilter 过滤器 test： "+ result + "\t" + DateUtil.now());
+    }
 }
