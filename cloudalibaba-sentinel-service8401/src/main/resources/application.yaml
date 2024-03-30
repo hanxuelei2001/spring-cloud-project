@@ -14,3 +14,11 @@ spring:
         dashboard: localhost:8858 # 配置 sentinel  dashboard 的页面
         port: 8719 # 默认是 8719，如果 8719 被占用的，则会自动加一开始一直扫描
       web-context-unify: false # controller 层的方法调用 service 中的方法不认为是同一个根链路
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            data-id: ${spring.application.name}
+            group-id: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow # 规定的规则类型，流控

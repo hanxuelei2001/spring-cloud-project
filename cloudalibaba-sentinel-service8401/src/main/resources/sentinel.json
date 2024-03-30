@@ -1,0 +1,12 @@
+[
+  {
+    "controlBehavior": 0,
+    "count": 2,
+    "grade": 1,
+    "limitApp": "default",
+    "maxQueueingTimeMs": "500",
+    "resource": "/empower",
+    "strategy": 0,
+    "warmUpPeriodSec": 3
+  }
+]

@@ -18,6 +18,13 @@
     </properties>
 
     <dependencies>
+
+        <!--spring cloud alibaba sentinel 持久化-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+        </dependency>
+
         <!--spring cloud alibaba sentinel-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
