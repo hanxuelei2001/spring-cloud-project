@@ -1,0 +1,1638 @@
+2023-05-05 22:58:05,396 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1627701632000, length=2017, md5=1a3f834c5c7abac7a92187a5a6d0b434
+
+2023-05-05 22:58:05,397 INFO [dump-all-ok] mall4cloud-auth.yml+DEFAULT_GROUP, 1627701693000, length=506, md5=a849cbe0a73f68593e0f9b9e196f5e59
+
+2023-05-05 22:58:05,459 INFO [dump-all-ok] mall4cloud-multishop.yml+DEFAULT_GROUP, 1627701705000, length=440, md5=a588ee15a639d69dab4b4b175eeb1f2c
+
+2023-05-05 22:58:05,460 INFO [dump-all-ok] mall4cloud-leaf.yml+DEFAULT_GROUP, 1627701715000, length=435, md5=e9e004b4ddaf03051687802ccbde293a
+
+2023-05-05 22:58:05,460 INFO [dump-all-ok] mall4cloud-rbac.yml+DEFAULT_GROUP, 1627701724000, length=430, md5=03f922e464c24f89eb6225f6ded6a0f3
+
+2023-05-05 22:58:05,460 INFO [dump-all-ok] mall4cloud-biz.yml+DEFAULT_GROUP, 1627701741000, length=697, md5=45611da025e4ec0f1eab9079a8252815
+
+2023-05-05 22:58:05,461 INFO [dump-all-ok] mall4cloud-product.yml+DEFAULT_GROUP, 1627701765000, length=438, md5=31d40c9017e605a0a43e1b102fae20e0
+
+2023-05-05 22:58:05,476 INFO [dump-all-ok] mall4cloud-search.yml+DEFAULT_GROUP, 1617347605000, length=61, md5=2567ac7c75a7e38413ce9a2a05ecf0fd
+
+2023-05-05 22:58:05,477 INFO [dump-all-ok] mall4cloud-gateway.yml+DEFAULT_GROUP, 1621553260000, length=4407, md5=02ae70655df2880a0de0431ad101571c
+
+2023-05-05 22:58:05,478 INFO [dump-all-ok] transport.type+SEATA_GROUP, 1614556085000, length=3, md5=b136ef5f6a01d816991fe3cf7a6ac763
+
+2023-05-05 22:58:05,479 INFO [dump-all-ok] transport.server+SEATA_GROUP, 1614556085000, length=3, md5=b6d9dfc0fb54277321cebc0fff55df2f
+
+2023-05-05 22:58:05,479 INFO [dump-all-ok] transport.heartbeat+SEATA_GROUP, 1614556085000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 22:58:05,479 INFO [dump-all-ok] transport.enableClientBatchSendRequest+SEATA_GROUP, 1614556085000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,480 INFO [dump-all-ok] transport.threadFactory.bossThreadPrefix+SEATA_GROUP, 1614556086000, length=9, md5=0f8db59a3b7f2823f38a70c308361836
+
+2023-05-05 22:58:05,501 INFO [dump-all-ok] transport.threadFactory.workerThreadPrefix+SEATA_GROUP, 1614556086000, length=20, md5=a78ec7ef5d1631754c4e72ae8a3e9205
+
+2023-05-05 22:58:05,502 INFO [dump-all-ok] transport.threadFactory.serverExecutorThreadPrefix+SEATA_GROUP, 1614556086000, length=21, md5=11a36309f3d9df84fa8b59cf071fa2da
+
+2023-05-05 22:58:05,502 INFO [dump-all-ok] transport.threadFactory.shareBossWorker+SEATA_GROUP, 1614556086000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,503 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadPrefix+SEATA_GROUP, 1614556086000, length=19, md5=cd7ec5a06541e75f5a7913752322c3af
+
+2023-05-05 22:58:05,503 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadSize+SEATA_GROUP, 1614556086000, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2023-05-05 22:58:05,504 INFO [dump-all-ok] transport.threadFactory.clientWorkerThreadPrefix+SEATA_GROUP, 1614556086000, length=23, md5=61cf4e69a56354cf72f46dc86414a57e
+
+2023-05-05 22:58:05,504 INFO [dump-all-ok] transport.threadFactory.bossThreadSize+SEATA_GROUP, 1614556087000, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2023-05-05 22:58:05,504 INFO [dump-all-ok] transport.threadFactory.workerThreadSize+SEATA_GROUP, 1614556087000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,505 INFO [dump-all-ok] transport.shutdown.wait+SEATA_GROUP, 1614556087000, length=1, md5=eccbc87e4b5ce2fe28308fd9f2a7baf3
+
+2023-05-05 22:58:05,526 INFO [dump-all-ok] service.vgroupMapping.my_test_tx_group+SEATA_GROUP, 1614556087000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,526 INFO [dump-all-ok] service.default.grouplist+SEATA_GROUP, 1614556087000, length=19, md5=b21b0aa1543adb96d791e9ef9add1cc4
+
+2023-05-05 22:58:05,527 INFO [dump-all-ok] service.enableDegrade+SEATA_GROUP, 1614556087000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,528 INFO [dump-all-ok] service.disableGlobalTransaction+SEATA_GROUP, 1614556087000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,528 INFO [dump-all-ok] client.rm.asyncCommitBufferLimit+SEATA_GROUP, 1614556087000, length=5, md5=b7a782741f667201b54880c925faec4b
+
+2023-05-05 22:58:05,529 INFO [dump-all-ok] client.rm.lock.retryInterval+SEATA_GROUP, 1614556088000, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2023-05-05 22:58:05,551 INFO [dump-all-ok] client.rm.lock.retryTimes+SEATA_GROUP, 1614556088000, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2023-05-05 22:58:05,551 INFO [dump-all-ok] client.rm.lock.retryPolicyBranchRollbackOnConflict+SEATA_GROUP, 1614556088000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 22:58:05,552 INFO [dump-all-ok] client.rm.reportRetryCount+SEATA_GROUP, 1614556088000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 22:58:05,553 INFO [dump-all-ok] client.rm.tableMetaCheckEnable+SEATA_GROUP, 1614556088000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,554 INFO [dump-all-ok] client.rm.reportSuccessEnable+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,554 INFO [dump-all-ok] client.rm.sagaBranchRegisterEnable+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,554 INFO [dump-all-ok] client.tm.commitRetryCount+SEATA_GROUP, 1614556089000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 22:58:05,566 INFO [dump-all-ok] client.tm.rollbackRetryCount+SEATA_GROUP, 1614556089000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 22:58:05,567 INFO [dump-all-ok] client.tm.defaultGlobalTransactionTimeout+SEATA_GROUP, 1614556089000, length=5, md5=2b4226dd7ed6eb2d419b881f3ae9c97c
+
+2023-05-05 22:58:05,568 INFO [dump-all-ok] client.tm.degradeCheck+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,568 INFO [dump-all-ok] client.tm.degradeCheckAllowTimes+SEATA_GROUP, 1614556089000, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2023-05-05 22:58:05,569 INFO [dump-all-ok] client.tm.degradeCheckPeriod+SEATA_GROUP, 1614556090000, length=4, md5=08f90c1a417155361a5c4b8d297e0d78
+
+2023-05-05 22:58:05,569 INFO [dump-all-ok] store.mode+SEATA_GROUP, 1614556090000, length=2, md5=d77d5e503ad1439f585ac494268b351b
+
+2023-05-05 22:58:05,586 INFO [dump-all-ok] store.db.datasource+SEATA_GROUP, 1614556090000, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2023-05-05 22:58:05,587 INFO [dump-all-ok] store.db.dbType+SEATA_GROUP, 1614556090000, length=5, md5=81c3b080dad537de7e10e0987a4bf52e
+
+2023-05-05 22:58:05,588 INFO [dump-all-ok] store.db.driverClassName+SEATA_GROUP, 1616023361000, length=24, md5=33763409bb7f4838bde4fae9540433e4
+
+2023-05-05 22:58:05,588 INFO [dump-all-ok] store.db.url+SEATA_GROUP, 1623801432000, length=258, md5=7b2de6851c86b0fe4a57fe645c041bb2
+
+2023-05-05 22:58:05,589 INFO [dump-all-ok] store.db.user+SEATA_GROUP, 1614556090000, length=4, md5=63a9f0ea7bb98050796b649e85481845
+
+2023-05-05 22:58:05,589 INFO [dump-all-ok] store.db.password+SEATA_GROUP, 1614556091000, length=4, md5=63a9f0ea7bb98050796b649e85481845
+
+2023-05-05 22:58:05,603 INFO [dump-all-ok] store.db.minConn+SEATA_GROUP, 1614556091000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 22:58:05,603 INFO [dump-all-ok] store.db.maxConn+SEATA_GROUP, 1614556091000, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2023-05-05 22:58:05,604 INFO [dump-all-ok] store.db.globalTable+SEATA_GROUP, 1614556091000, length=12, md5=8b28fb6bb4c4f984df2709381f8eba2b
+
+2023-05-05 22:58:05,604 INFO [dump-all-ok] store.db.branchTable+SEATA_GROUP, 1614556091000, length=12, md5=54bcdac38cf62e103fe115bcf46a660c
+
+2023-05-05 22:58:05,605 INFO [dump-all-ok] store.db.queryLimit+SEATA_GROUP, 1614556091000, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2023-05-05 22:58:05,605 INFO [dump-all-ok] store.db.lockTable+SEATA_GROUP, 1614556091000, length=10, md5=55e0cae3b6dc6696b768db90098b8f2f
+
+2023-05-05 22:58:05,605 INFO [dump-all-ok] store.db.maxWait+SEATA_GROUP, 1614556091000, length=4, md5=a35fe7f7fe8217b4369a0af4244d1fca
+
+2023-05-05 22:58:05,606 INFO [dump-all-ok] server.recovery.committingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 22:58:05,615 INFO [dump-all-ok] server.recovery.asynCommittingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 22:58:05,616 INFO [dump-all-ok] server.recovery.rollbackingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 22:58:05,617 INFO [dump-all-ok] server.recovery.timeoutRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 22:58:05,617 INFO [dump-all-ok] server.maxCommitRetryTimeout+SEATA_GROUP, 1614556092000, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2023-05-05 22:58:05,618 INFO [dump-all-ok] server.maxRollbackRetryTimeout+SEATA_GROUP, 1614556092000, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2023-05-05 22:58:05,618 INFO [dump-all-ok] server.rollbackRetryTimeoutUnlockEnable+SEATA_GROUP, 1614556092000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,618 INFO [dump-all-ok] client.undo.dataValidation+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 22:58:05,619 INFO [dump-all-ok] client.undo.logSerialization+SEATA_GROUP, 1614557248000, length=7, md5=b41779690b83f182acc67d6388c7bac9
+
+2023-05-05 22:58:05,630 INFO [dump-all-ok] client.undo.onlyCareUpdateColumns+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 22:58:05,631 INFO [dump-all-ok] server.undo.logSaveDays+SEATA_GROUP, 1614556093000, length=1, md5=8f14e45fceea167a5a36dedd4bea2543
+
+2023-05-05 22:58:05,632 INFO [dump-all-ok] server.undo.logDeletePeriod+SEATA_GROUP, 1614556093000, length=8, md5=f4c122804fe9076cb2710f55c3c6e346
+
+2023-05-05 22:58:05,632 INFO [dump-all-ok] client.undo.logTable+SEATA_GROUP, 1614556093000, length=8, md5=2842d229c24afe9e61437135e8306614
+
+2023-05-05 22:58:05,632 INFO [dump-all-ok] log.exceptionRate+SEATA_GROUP, 1614556094000, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2023-05-05 22:58:05,633 INFO [dump-all-ok] transport.serialization+SEATA_GROUP, 1614556094000, length=5, md5=b943081c423b9a5416a706524ee05d40
+
+2023-05-05 22:58:05,633 INFO [dump-all-ok] transport.compressor+SEATA_GROUP, 1614556094000, length=4, md5=334c4a4c42fdb79d7ebc3e73b517e6f8
+
+2023-05-05 22:58:05,633 INFO [dump-all-ok] metrics.enabled+SEATA_GROUP, 1614556094000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 22:58:05,634 INFO [dump-all-ok] metrics.registryType+SEATA_GROUP, 1614556094000, length=7, md5=7cf74ca49c304df8150205fc915cd465
+
+2023-05-05 22:58:05,634 INFO [dump-all-ok] metrics.exporterList+SEATA_GROUP, 1614556094000, length=10, md5=e4f00638b8a10e6994e67af2f832d51c
+
+2023-05-05 22:58:05,634 INFO [dump-all-ok] metrics.exporterPrometheusPort+SEATA_GROUP, 1614556095000, length=4, md5=7b9dc501afe4ee11c56a4831e20cee71
+
+2023-05-05 22:58:05,635 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-auth-seata-service-group+SEATA_GROUP, 1606701342000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,635 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-multishop-seata-service-group+SEATA_GROUP, 1606701423000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,635 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-rbac-seata-service-group+SEATA_GROUP, 1606701437000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,661 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-product-seata-service-group+SEATA_GROUP, 1606772813000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,661 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-biz-seata-service-group+SEATA_GROUP, 1606772837000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,662 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-leaf-seata-service-group+SEATA_GROUP, 1606772864000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,662 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-order-seata-service-group+SEATA_GROUP, 1606772880000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,663 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-user-seata-service-group+SEATA_GROUP, 1606772895000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,663 INFO [dump-all-ok] mall4cloud-order.yml+DEFAULT_GROUP, 1617339224000, length=436, md5=0e3b70a6fa240d49e35f3474ebdad829
+
+2023-05-05 22:58:05,663 INFO [dump-all-ok] mall4cloud-user.yml+DEFAULT_GROUP, 1617339289000, length=435, md5=c7606eaf39a5940df1c3ae0282cb1227
+
+2023-05-05 22:58:05,664 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-coupon-seata-service-group+SEATA_GROUP, 1607449795000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,664 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-delivery-seata-service-group+SEATA_GROUP, 1607887809000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,673 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-discount-seata-service-group+SEATA_GROUP, 1608070394000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,674 INFO [dump-all-ok] mall4cloud-platform.yml+DEFAULT_GROUP, 1617339359000, length=439, md5=3125f3cda2cf842e9db5ff5f7312b2ae
+
+2023-05-05 22:58:05,674 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-platform-seata-service-group+SEATA_GROUP, 1608507661000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,674 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-search-seata-service-group+SEATA_GROUP, 1608574791000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,675 INFO [dump-all-ok] mall4cloud-payment.yml+DEFAULT_GROUP, 1617339374000, length=509, md5=b6cb1609cbbb40e9974ca7e27071d2c8
+
+2023-05-05 22:58:05,675 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-payment-seata-service-group+SEATA_GROUP, 1612293603000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,676 INFO [dump-all-ok] client.rm.tableMetaCheckerInterval+SEATA_GROUP, 1614556088000, length=5, md5=2b4226dd7ed6eb2d419b881f3ae9c97c
+
+2023-05-05 22:58:05,676 INFO [dump-all-ok] client.rm.sqlParserType+SEATA_GROUP, 1614556088000, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2023-05-05 22:58:05,676 INFO [dump-all-ok] client.undo.compress.enable+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 22:58:05,677 INFO [dump-all-ok] client.undo.compress.type+SEATA_GROUP, 1614556093000, length=3, md5=adcdbd79a8d84175c229b192aadc02f2
+
+2023-05-05 22:58:05,686 INFO [dump-all-ok] client.undo.compress.threshold+SEATA_GROUP, 1614556094000, length=3, md5=bd44a6458bdbff0b5cac721ba361f035
+
+2023-05-05 22:58:05,686 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-group-seata-service-group+SEATA_GROUP, 1616180507000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,686 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-seckill-seata-service-group+SEATA_GROUP, 1617229096000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,686 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-flow-seata-service-group+SEATA_GROUP, 1621622199000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 22:58:05,687 INFO [dump-all-ok] com.haust.service.service.third.QCodeService+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,687 INFO [dump-all-ok] com.haust.service.service.third.QCodeService:::provider:shop-third+dubbo, 1682952517000, length=3135, md5=d49a738e5cc678d9a3b593117a911705
+
+2023-05-05 22:58:05,687 INFO [dump-all-ok] com.haust.service.service.third.StorageService:::provider:shop-third+dubbo, 1682952518000, length=2556, md5=99c10e862fbb0e93eb896c812b5589c9
+
+2023-05-05 22:58:05,688 INFO [dump-all-ok] com.haust.service.service.third.StorageService+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,688 INFO [dump-all-ok] com.haust.service.service.third.Storage:::provider:shop-third+dubbo, 1682952519000, length=2046, md5=363f8ed2626b88dab4418dc8c3895129
+
+2023-05-05 22:58:05,688 INFO [dump-all-ok] com.haust.service.service.third.Storage+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,689 INFO [dump-all-ok] com.haust.service.service.third.DtsStorageService:::provider:shop-third+dubbo, 1682952520000, length=3064, md5=cd89950da001b0ded11407f4e63254f2
+
+2023-05-05 22:58:05,689 INFO [dump-all-ok] com.haust.service.service.third.DtsStorageService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,694 INFO [dump-all-ok] com.haust.service.service.third.ExpressService:::provider:shop-third+dubbo, 1682952520000, length=2354, md5=a14bf291af27cf26622048dd2b2779b2
+
+2023-05-05 22:58:05,695 INFO [dump-all-ok] com.haust.service.service.third.ExpressService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,695 INFO [dump-all-ok] com.haust.service.service.third.DtsFormUserIdService:::provider:shop-third+dubbo, 1682952521000, length=2442, md5=9e762a576be438ad037090517652b333
+
+2023-05-05 22:58:05,696 INFO [dump-all-ok] com.haust.service.service.third.DtsFormUserIdService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,696 INFO [dump-all-ok] com.haust.service.service.third.SmsSender:::provider:shop-third+dubbo, 1682952522000, length=1576, md5=cdd14951b71245b6b6149b79480bea42
+
+2023-05-05 22:58:05,696 INFO [dump-all-ok] com.haust.service.service.third.SmsSender+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,697 INFO [dump-all-ok] com.haust.service.service.third.DtsRegionService:::provider:shop-third+dubbo, 1682952523000, length=2106, md5=c5cbdf915ab17de1b0417c831433c00f
+
+2023-05-05 22:58:05,697 INFO [dump-all-ok] com.haust.service.service.third.DtsRegionService+mapping, 1682937921000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,697 INFO [dump-all-ok] com.haust.service.service.third.NotifyService:::provider:shop-third+dubbo, 1682952526000, length=2995, md5=c41b5b50eb0e9e062f63b28063f6986c
+
+2023-05-05 22:58:05,697 INFO [dump-all-ok] com.haust.service.service.third.NotifyService+mapping, 1682937921000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 22:58:05,698 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService+mapping, 1682952517000, length=31, md5=152fe0e9ee632761647b0b4eba9ac8df
+
+2023-05-05 22:58:05,698 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService+mapping, 1682952520000, length=31, md5=152fe0e9ee632761647b0b4eba9ac8df
+
+2023-05-05 22:58:05,719 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService:::provider:shop-search-rpc+dubbo, 1682952503000, length=3476, md5=afacd0a820a08b47a0e3af2be04c958e
+
+2023-05-05 22:58:05,719 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-rpc+dubbo, 1682952503000, length=2783, md5=7f21d1df7d867ec24276f76e111850e3
+
+2023-05-05 22:58:05,720 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService+mapping, 1682952518000, length=29, md5=768386f84287700a766312ec196e1002
+
+2023-05-05 22:58:05,720 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-rpc+dubbo, 1682952517000, length=2650, md5=cf06439460a2b78604a546b01945733b
+
+2023-05-05 22:58:05,720 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService+mapping, 1682952528000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 22:58:05,721 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-api+dubbo, 1682952517000, length=2709, md5=70981a830b3e1730807ea84173b587d2
+
+2023-05-05 22:58:05,721 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService+mapping, 1682952519000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 22:58:05,721 INFO [dump-all-ok] com.haust.service.service.order.DtsCartService+mapping, 1682952517000, length=13, md5=6473cc547422f49aec673206817b6089
+
+2023-05-05 22:58:05,722 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-api+dubbo, 1682952517000, length=1056, md5=db5478287b3ad2a3a22d790cb0b8e5b1
+
+2023-05-05 22:58:05,722 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-api+dubbo, 1682952517000, length=2784, md5=be76e7f87fb69d3b5b78e23bd9055975
+
+2023-05-05 22:58:05,722 INFO [dump-all-ok] com.haust.service.service.order.WxOrderService:::provider:shop-order-api+dubbo, 1682952517000, length=3481, md5=5f80266e3e98813e0fae3ead4bc0ac73
+
+2023-05-05 22:58:05,723 INFO [dump-all-ok] com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo, 1682952518000, length=4601, md5=7f64ee662473c0c18c2b169a79ca23dc
+
+2023-05-05 22:58:05,723 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo, 1682952517000, length=1056, md5=f60e8275c95520a2595ab8cb6c796fa7
+
+2023-05-05 22:58:05,723 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService+mapping, 1682952530000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 22:58:05,723 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-api+dubbo, 1682952518000, length=2649, md5=ea2aa1c18a1048e322f7fdec0d6f6425
+
+2023-05-05 22:58:05,724 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-api+dubbo, 1682952518000, length=3004, md5=4f74ab2ba2d9575d12eec4ef6213bbca
+
+2023-05-05 22:58:05,724 INFO [dump-all-ok] com.haust.service.service.order.WxOrderService+mapping, 1682952517000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 22:58:05,724 INFO [dump-all-ok] com.haust.service.service.user.DtsCollectService+mapping, 1682952518000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,724 INFO [dump-all-ok] com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo, 1682952518000, length=3333, md5=46a5c1c954ceec7aa2f4ff8dd9d97f8a
+
+2023-05-05 22:58:05,733 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService+mapping, 1682952521000, length=29, md5=768386f84287700a766312ec196e1002
+
+2023-05-05 22:58:05,733 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-api+dubbo, 1682952519000, length=2633, md5=aa2ebb391ee9f5bbd8db7757182f5871
+
+2023-05-05 22:58:05,733 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService+mapping, 1682952522000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 22:58:05,734 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-rpc+dubbo, 1682952519000, length=3499, md5=7f02946a59a89f0202b0635bc3c72a33
+
+2023-05-05 22:58:05,734 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsProductService+mapping, 1682952519000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 22:58:05,734 INFO [dump-all-ok] com.haust.service.service.order.SettlementOrderService+mapping, 1682952519000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 22:58:05,734 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-api+dubbo, 1682952519000, length=3639, md5=98f77ea69ae3778df99580917fd18ab6
+
+2023-05-05 22:58:05,735 INFO [dump-all-ok] com.haust.service.service.order.DtsGrouponService+mapping, 1682952519000, length=16, md5=fe9afd1ea8dd370a3490cc401016919d
+
+2023-05-05 22:58:05,735 INFO [dump-all-ok] com.haust.service.service.order.SettlementOrderService:::provider:shop-order-api+dubbo, 1682952519000, length=4771, md5=acdd3ab27ebc6adcf355bc0f9241030e
+
+2023-05-05 22:58:05,735 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService:::provider:shop-search-api+dubbo, 1682952519000, length=3477, md5=4a308102d2840156d21c1dd5cb626532
+
+2023-05-05 22:58:05,735 INFO [dump-all-ok] com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo, 1682952520000, length=4102, md5=4e706c9b4aaa58b336ea1153d9b806ac
+
+2023-05-05 22:58:05,736 INFO [dump-all-ok] com.haust.service.service.user.DtsAddressService+mapping, 1682952520000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,776 INFO [dump-all-ok] com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo, 1682952522000, length=3464, md5=d77b539deebcdb2fd1342d408326f347
+
+2023-05-05 22:58:05,777 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-api+dubbo, 1682952520000, length=3498, md5=7ce1de0c575048b8fe03a2dc2ff19730
+
+2023-05-05 22:58:05,778 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-api+dubbo, 1682952520000, length=4029, md5=72b707c4720309a2b647edde79e6fd90
+
+2023-05-05 22:58:05,778 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService+mapping, 1682952523000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 22:58:05,779 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsService:::provider:shop-product-api+dubbo, 1682952520000, length=6606, md5=18f37b1a012bb4d9e933407406a3aca4
+
+2023-05-05 22:58:05,779 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsService+mapping, 1682952520000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 22:58:05,780 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderService:::provider:shop-order-api+dubbo, 1682952520000, length=7010, md5=43b3e4cdf4dc76065a5392a6476b424d
+
+2023-05-05 22:58:05,781 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderService+mapping, 1682952520000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 22:58:05,781 INFO [dump-all-ok] com.haust.service.service.user.DtsAccountService+mapping, 1682952521000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,782 INFO [dump-all-ok] com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo, 1682952527000, length=6694, md5=59dc4b4fb4f2671a15898fc99961a2cc
+
+2023-05-05 22:58:05,811 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-rpc+dubbo, 1682952521000, length=2633, md5=d410f9fd32d54b81118ed1ca6150149c
+
+2023-05-05 22:58:05,812 INFO [dump-all-ok] com.haust.service.service.product.DtsGrouponRulesService+mapping, 1682952521000, length=16, md5=fe9afd1ea8dd370a3490cc401016919d
+
+2023-05-05 22:58:05,814 INFO [dump-all-ok] com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo, 1682952521000, length=4969, md5=fb77c5ea2dcb5dea60158b4978ccf04b
+
+2023-05-05 22:58:05,814 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService+mapping, 1682952532000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 22:58:05,814 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderGoodsService+mapping, 1682952522000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 22:58:05,814 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-api+dubbo, 1682952521000, length=6547, md5=37c1b4c2f705571443313e297224175b
+
+2023-05-05 22:58:05,815 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-api+dubbo, 1682952521000, length=3680, md5=3f68d2d51fd88bee222682226d561130
+
+2023-05-05 22:58:05,815 INFO [dump-all-ok] com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo, 1682952527000, length=2933, md5=efa9c537f6a710ab4d77ae420cdede20
+
+2023-05-05 22:58:05,816 INFO [dump-all-ok] com.haust.service.service.product.DtsBrandService:::provider:shop-product-api+dubbo, 1682952522000, length=4092, md5=1475d95929b9b7fa0a2c9b662e001d2a
+
+2023-05-05 22:58:05,816 INFO [dump-all-ok] com.haust.service.service.user.DtsFootprintService+mapping, 1682952522000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,816 INFO [dump-all-ok] com.haust.service.service.product.DtsBrandService+mapping, 1682952522000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 22:58:05,816 INFO [dump-all-ok] com.haust.shop.user.service.UserInfoService+mapping, 1682952523000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,816 INFO [dump-all-ok] com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo, 1682952527000, length=1553, md5=75ec1098139c52a0205aa8540c1b08e0
+
+2023-05-05 22:58:05,817 INFO [dump-all-ok] com.haust.service.service.product.DtsAdService:::provider:shop-product-api+dubbo, 1682952526000, length=3218, md5=9992203e269a14f954532cc0c8638c01
+
+2023-05-05 22:58:05,817 INFO [dump-all-ok] com.haust.service.service.product.DtsAdService+mapping, 1682952523000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 22:58:05,817 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-rpc+dubbo, 1682952540000, length=4029, md5=0c352436f7f046918834cab25317d0e3
+
+2023-05-05 22:58:05,817 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-api+dubbo, 1682952526000, length=3865, md5=71895210af004863389b5eaf6c96583d
+
+2023-05-05 22:58:05,818 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService+mapping, 1682952527000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 22:58:05,818 INFO [dump-all-ok] com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo, 1682952528000, length=1435, md5=c684a6c08e9838e50f44038df299579e
+
+2023-05-05 22:58:05,818 INFO [dump-all-ok] com.haust.service.service.user.WxAgencyService+mapping, 1682952526000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,818 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-rpc+dubbo, 1682952527000, length=3866, md5=776a2060b5a6948fcf6e7ee91759d8d3
+
+2023-05-05 22:58:05,819 INFO [dump-all-ok] com.haust.service.service.stat.StatService:::provider:shop-admin-api+dubbo, 1682952527000, length=1243, md5=e8e763d6e8bd6ceaaad72066b2336f2f
+
+2023-05-05 22:58:05,819 INFO [dump-all-ok] com.haust.service.service.stat.StatService+mapping, 1682952528000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 22:58:05,819 INFO [dump-all-ok] com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo, 1682952530000, length=1356, md5=e4f3ab29d0774a92e2f022f5ff9adffb
+
+2023-05-05 22:58:05,819 INFO [dump-all-ok] com.haust.service.service.user.DtsAgencyService+mapping, 1682952527000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,819 INFO [dump-all-ok] com.haust.service.service.product.DtsCategoryService:::provider:shop-product-api+dubbo, 1682952527000, length=4277, md5=ceef10ae666eb599565ad038fc778069
+
+2023-05-05 22:58:05,820 INFO [dump-all-ok] com.haust.service.service.product.DtsCategoryService+mapping, 1682952527000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 22:58:05,820 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-api+dubbo, 1682952528000, length=2953, md5=422454edc9c8a6d5148436178103691f
+
+2023-05-05 22:58:05,820 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService+mapping, 1682952532000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 22:58:05,821 INFO [dump-all-ok] com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo, 1682952539000, length=4220, md5=9a10ba732ce4c85c4800c268e61bf390
+
+2023-05-05 22:58:05,852 INFO [dump-all-ok] com.haust.service.service.user.DtsCommentService+mapping, 1682952528000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,853 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo, 1682952528000, length=2709, md5=d4eb10dc55f974c160f2cf28ebaf4918
+
+2023-05-05 22:58:05,854 INFO [dump-all-ok] com.haust.service.service.stat.StatService:::provider:shop-admin-rpc+dubbo, 1682952528000, length=1244, md5=c730e5ac433021105b1320410f82618f
+
+2023-05-05 22:58:05,854 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-api+dubbo, 1682952528000, length=3254, md5=f9ecfdfaf094ec706d653b1cca578909
+
+2023-05-05 22:58:05,854 INFO [dump-all-ok] com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo, 1682952540000, length=5989, md5=4b7f4f524752c6e536f892f9f475b5b9
+
+2023-05-05 22:58:05,855 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService+mapping, 1682952530000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 22:58:05,855 INFO [dump-all-ok] com.haust.service.service.user.DtsUserService+mapping, 1682952528000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 22:58:05,855 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-api+dubbo, 1682952530000, length=2845, md5=4cb8eb6c2857c5ed648d02737fe1b299
+
+2023-05-05 22:58:05,856 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService+mapping, 1682952534000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 22:58:05,856 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-rpc+dubbo, 1682952530000, length=3004, md5=1fc1e07bfcc0b3fadf452d591713f09c
+
+2023-05-05 22:58:05,856 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-rpc+dubbo, 1682952530000, length=3255, md5=8aff46edd1c5355d84ccd972e52fc2f3
+
+2023-05-05 22:58:05,857 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-api+dubbo, 1682952532000, length=3566, md5=8746d6267cd4830647baece65b6c4bca
+
+2023-05-05 22:58:05,857 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService+mapping, 1682952556000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 22:58:05,857 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-rpc+dubbo, 1682952532000, length=6547, md5=d26324577f23b6f04d35eae41f346498
+
+2023-05-05 22:58:05,858 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-rpc+dubbo, 1682952532000, length=2954, md5=d7d133ffb872a716c2676b08600bd7a3
+
+2023-05-05 22:58:05,858 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-rpc+dubbo, 1682952539000, length=2846, md5=ba974335dbd0588aaf22640cf3f9fe4d
+
+2023-05-05 22:58:05,859 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-rpc+dubbo, 1682952541000, length=3567, md5=2bc208def0dace002595c494d31f5961
+
+2023-05-05 23:03:02,589 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1627701632000, length=2017, md5=1a3f834c5c7abac7a92187a5a6d0b434
+
+2023-05-05 23:03:02,590 INFO [dump-all-ok] mall4cloud-auth.yml+DEFAULT_GROUP, 1627701693000, length=506, md5=a849cbe0a73f68593e0f9b9e196f5e59
+
+2023-05-05 23:03:02,644 INFO [dump-all-ok] mall4cloud-multishop.yml+DEFAULT_GROUP, 1627701705000, length=440, md5=a588ee15a639d69dab4b4b175eeb1f2c
+
+2023-05-05 23:03:02,645 INFO [dump-all-ok] mall4cloud-leaf.yml+DEFAULT_GROUP, 1627701715000, length=435, md5=e9e004b4ddaf03051687802ccbde293a
+
+2023-05-05 23:03:02,646 INFO [dump-all-ok] mall4cloud-rbac.yml+DEFAULT_GROUP, 1627701724000, length=430, md5=03f922e464c24f89eb6225f6ded6a0f3
+
+2023-05-05 23:03:02,646 INFO [dump-all-ok] mall4cloud-biz.yml+DEFAULT_GROUP, 1627701741000, length=697, md5=45611da025e4ec0f1eab9079a8252815
+
+2023-05-05 23:03:02,646 INFO [dump-all-ok] mall4cloud-product.yml+DEFAULT_GROUP, 1627701765000, length=438, md5=31d40c9017e605a0a43e1b102fae20e0
+
+2023-05-05 23:03:02,667 INFO [dump-all-ok] mall4cloud-search.yml+DEFAULT_GROUP, 1617347605000, length=61, md5=2567ac7c75a7e38413ce9a2a05ecf0fd
+
+2023-05-05 23:03:02,668 INFO [dump-all-ok] mall4cloud-gateway.yml+DEFAULT_GROUP, 1621553260000, length=4407, md5=02ae70655df2880a0de0431ad101571c
+
+2023-05-05 23:03:02,668 INFO [dump-all-ok] transport.type+SEATA_GROUP, 1614556085000, length=3, md5=b136ef5f6a01d816991fe3cf7a6ac763
+
+2023-05-05 23:03:02,669 INFO [dump-all-ok] transport.server+SEATA_GROUP, 1614556085000, length=3, md5=b6d9dfc0fb54277321cebc0fff55df2f
+
+2023-05-05 23:03:02,669 INFO [dump-all-ok] transport.heartbeat+SEATA_GROUP, 1614556085000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:03:02,669 INFO [dump-all-ok] transport.enableClientBatchSendRequest+SEATA_GROUP, 1614556085000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,669 INFO [dump-all-ok] transport.threadFactory.bossThreadPrefix+SEATA_GROUP, 1614556086000, length=9, md5=0f8db59a3b7f2823f38a70c308361836
+
+2023-05-05 23:03:02,670 INFO [dump-all-ok] transport.threadFactory.workerThreadPrefix+SEATA_GROUP, 1614556086000, length=20, md5=a78ec7ef5d1631754c4e72ae8a3e9205
+
+2023-05-05 23:03:02,672 INFO [dump-all-ok] transport.threadFactory.serverExecutorThreadPrefix+SEATA_GROUP, 1614556086000, length=21, md5=11a36309f3d9df84fa8b59cf071fa2da
+
+2023-05-05 23:03:02,672 INFO [dump-all-ok] transport.threadFactory.shareBossWorker+SEATA_GROUP, 1614556086000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,673 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadPrefix+SEATA_GROUP, 1614556086000, length=19, md5=cd7ec5a06541e75f5a7913752322c3af
+
+2023-05-05 23:03:02,673 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadSize+SEATA_GROUP, 1614556086000, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2023-05-05 23:03:02,673 INFO [dump-all-ok] transport.threadFactory.clientWorkerThreadPrefix+SEATA_GROUP, 1614556086000, length=23, md5=61cf4e69a56354cf72f46dc86414a57e
+
+2023-05-05 23:03:02,674 INFO [dump-all-ok] transport.threadFactory.bossThreadSize+SEATA_GROUP, 1614556087000, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2023-05-05 23:03:02,674 INFO [dump-all-ok] transport.threadFactory.workerThreadSize+SEATA_GROUP, 1614556087000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,675 INFO [dump-all-ok] transport.shutdown.wait+SEATA_GROUP, 1614556087000, length=1, md5=eccbc87e4b5ce2fe28308fd9f2a7baf3
+
+2023-05-05 23:03:02,675 INFO [dump-all-ok] service.vgroupMapping.my_test_tx_group+SEATA_GROUP, 1614556087000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,675 INFO [dump-all-ok] service.default.grouplist+SEATA_GROUP, 1614556087000, length=19, md5=b21b0aa1543adb96d791e9ef9add1cc4
+
+2023-05-05 23:03:02,676 INFO [dump-all-ok] service.enableDegrade+SEATA_GROUP, 1614556087000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,676 INFO [dump-all-ok] service.disableGlobalTransaction+SEATA_GROUP, 1614556087000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,676 INFO [dump-all-ok] client.rm.asyncCommitBufferLimit+SEATA_GROUP, 1614556087000, length=5, md5=b7a782741f667201b54880c925faec4b
+
+2023-05-05 23:03:02,677 INFO [dump-all-ok] client.rm.lock.retryInterval+SEATA_GROUP, 1614556088000, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2023-05-05 23:03:02,677 INFO [dump-all-ok] client.rm.lock.retryTimes+SEATA_GROUP, 1614556088000, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2023-05-05 23:03:02,677 INFO [dump-all-ok] client.rm.lock.retryPolicyBranchRollbackOnConflict+SEATA_GROUP, 1614556088000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:03:02,678 INFO [dump-all-ok] client.rm.reportRetryCount+SEATA_GROUP, 1614556088000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 23:03:02,678 INFO [dump-all-ok] client.rm.tableMetaCheckEnable+SEATA_GROUP, 1614556088000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,678 INFO [dump-all-ok] client.rm.reportSuccessEnable+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,679 INFO [dump-all-ok] client.rm.sagaBranchRegisterEnable+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,679 INFO [dump-all-ok] client.tm.commitRetryCount+SEATA_GROUP, 1614556089000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 23:03:02,679 INFO [dump-all-ok] client.tm.rollbackRetryCount+SEATA_GROUP, 1614556089000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 23:03:02,680 INFO [dump-all-ok] client.tm.defaultGlobalTransactionTimeout+SEATA_GROUP, 1614556089000, length=5, md5=2b4226dd7ed6eb2d419b881f3ae9c97c
+
+2023-05-05 23:03:02,680 INFO [dump-all-ok] client.tm.degradeCheck+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,680 INFO [dump-all-ok] client.tm.degradeCheckAllowTimes+SEATA_GROUP, 1614556089000, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2023-05-05 23:03:02,686 INFO [dump-all-ok] client.tm.degradeCheckPeriod+SEATA_GROUP, 1614556090000, length=4, md5=08f90c1a417155361a5c4b8d297e0d78
+
+2023-05-05 23:03:02,687 INFO [dump-all-ok] store.mode+SEATA_GROUP, 1614556090000, length=2, md5=d77d5e503ad1439f585ac494268b351b
+
+2023-05-05 23:03:02,687 INFO [dump-all-ok] store.db.datasource+SEATA_GROUP, 1614556090000, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2023-05-05 23:03:02,687 INFO [dump-all-ok] store.db.dbType+SEATA_GROUP, 1614556090000, length=5, md5=81c3b080dad537de7e10e0987a4bf52e
+
+2023-05-05 23:03:02,688 INFO [dump-all-ok] store.db.driverClassName+SEATA_GROUP, 1616023361000, length=24, md5=33763409bb7f4838bde4fae9540433e4
+
+2023-05-05 23:03:02,688 INFO [dump-all-ok] store.db.url+SEATA_GROUP, 1623801432000, length=258, md5=7b2de6851c86b0fe4a57fe645c041bb2
+
+2023-05-05 23:03:02,688 INFO [dump-all-ok] store.db.user+SEATA_GROUP, 1614556090000, length=4, md5=63a9f0ea7bb98050796b649e85481845
+
+2023-05-05 23:03:02,688 INFO [dump-all-ok] store.db.password+SEATA_GROUP, 1614556091000, length=4, md5=63a9f0ea7bb98050796b649e85481845
+
+2023-05-05 23:03:02,689 INFO [dump-all-ok] store.db.minConn+SEATA_GROUP, 1614556091000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 23:03:02,689 INFO [dump-all-ok] store.db.maxConn+SEATA_GROUP, 1614556091000, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2023-05-05 23:03:02,739 INFO [dump-all-ok] store.db.globalTable+SEATA_GROUP, 1614556091000, length=12, md5=8b28fb6bb4c4f984df2709381f8eba2b
+
+2023-05-05 23:03:02,739 INFO [dump-all-ok] store.db.branchTable+SEATA_GROUP, 1614556091000, length=12, md5=54bcdac38cf62e103fe115bcf46a660c
+
+2023-05-05 23:03:02,740 INFO [dump-all-ok] store.db.queryLimit+SEATA_GROUP, 1614556091000, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2023-05-05 23:03:02,740 INFO [dump-all-ok] store.db.lockTable+SEATA_GROUP, 1614556091000, length=10, md5=55e0cae3b6dc6696b768db90098b8f2f
+
+2023-05-05 23:03:02,740 INFO [dump-all-ok] store.db.maxWait+SEATA_GROUP, 1614556091000, length=4, md5=a35fe7f7fe8217b4369a0af4244d1fca
+
+2023-05-05 23:03:02,740 INFO [dump-all-ok] server.recovery.committingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 23:03:02,741 INFO [dump-all-ok] server.recovery.asynCommittingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 23:03:02,741 INFO [dump-all-ok] server.recovery.rollbackingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 23:03:02,741 INFO [dump-all-ok] server.recovery.timeoutRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 23:03:02,753 INFO [dump-all-ok] server.maxCommitRetryTimeout+SEATA_GROUP, 1614556092000, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2023-05-05 23:03:02,753 INFO [dump-all-ok] server.maxRollbackRetryTimeout+SEATA_GROUP, 1614556092000, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2023-05-05 23:03:02,754 INFO [dump-all-ok] server.rollbackRetryTimeoutUnlockEnable+SEATA_GROUP, 1614556092000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,754 INFO [dump-all-ok] client.undo.dataValidation+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:03:02,754 INFO [dump-all-ok] client.undo.logSerialization+SEATA_GROUP, 1614557248000, length=7, md5=b41779690b83f182acc67d6388c7bac9
+
+2023-05-05 23:03:02,755 INFO [dump-all-ok] client.undo.onlyCareUpdateColumns+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:03:02,755 INFO [dump-all-ok] server.undo.logSaveDays+SEATA_GROUP, 1614556093000, length=1, md5=8f14e45fceea167a5a36dedd4bea2543
+
+2023-05-05 23:03:02,755 INFO [dump-all-ok] server.undo.logDeletePeriod+SEATA_GROUP, 1614556093000, length=8, md5=f4c122804fe9076cb2710f55c3c6e346
+
+2023-05-05 23:03:02,755 INFO [dump-all-ok] client.undo.logTable+SEATA_GROUP, 1614556093000, length=8, md5=2842d229c24afe9e61437135e8306614
+
+2023-05-05 23:03:02,755 INFO [dump-all-ok] log.exceptionRate+SEATA_GROUP, 1614556094000, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2023-05-05 23:03:02,756 INFO [dump-all-ok] transport.serialization+SEATA_GROUP, 1614556094000, length=5, md5=b943081c423b9a5416a706524ee05d40
+
+2023-05-05 23:03:02,756 INFO [dump-all-ok] transport.compressor+SEATA_GROUP, 1614556094000, length=4, md5=334c4a4c42fdb79d7ebc3e73b517e6f8
+
+2023-05-05 23:03:02,756 INFO [dump-all-ok] metrics.enabled+SEATA_GROUP, 1614556094000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:03:02,756 INFO [dump-all-ok] metrics.registryType+SEATA_GROUP, 1614556094000, length=7, md5=7cf74ca49c304df8150205fc915cd465
+
+2023-05-05 23:03:02,791 INFO [dump-all-ok] metrics.exporterList+SEATA_GROUP, 1614556094000, length=10, md5=e4f00638b8a10e6994e67af2f832d51c
+
+2023-05-05 23:03:02,791 INFO [dump-all-ok] metrics.exporterPrometheusPort+SEATA_GROUP, 1614556095000, length=4, md5=7b9dc501afe4ee11c56a4831e20cee71
+
+2023-05-05 23:03:02,792 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-auth-seata-service-group+SEATA_GROUP, 1606701342000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,792 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-multishop-seata-service-group+SEATA_GROUP, 1606701423000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,792 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-rbac-seata-service-group+SEATA_GROUP, 1606701437000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,792 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-product-seata-service-group+SEATA_GROUP, 1606772813000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,793 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-biz-seata-service-group+SEATA_GROUP, 1606772837000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,793 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-leaf-seata-service-group+SEATA_GROUP, 1606772864000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,793 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-order-seata-service-group+SEATA_GROUP, 1606772880000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,793 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-user-seata-service-group+SEATA_GROUP, 1606772895000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,794 INFO [dump-all-ok] mall4cloud-order.yml+DEFAULT_GROUP, 1617339224000, length=436, md5=0e3b70a6fa240d49e35f3474ebdad829
+
+2023-05-05 23:03:02,794 INFO [dump-all-ok] mall4cloud-user.yml+DEFAULT_GROUP, 1617339289000, length=435, md5=c7606eaf39a5940df1c3ae0282cb1227
+
+2023-05-05 23:03:02,794 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-coupon-seata-service-group+SEATA_GROUP, 1607449795000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,827 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-delivery-seata-service-group+SEATA_GROUP, 1607887809000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,827 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-discount-seata-service-group+SEATA_GROUP, 1608070394000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,827 INFO [dump-all-ok] mall4cloud-platform.yml+DEFAULT_GROUP, 1617339359000, length=439, md5=3125f3cda2cf842e9db5ff5f7312b2ae
+
+2023-05-05 23:03:02,827 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-platform-seata-service-group+SEATA_GROUP, 1608507661000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,828 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-search-seata-service-group+SEATA_GROUP, 1608574791000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,828 INFO [dump-all-ok] mall4cloud-payment.yml+DEFAULT_GROUP, 1617339374000, length=509, md5=b6cb1609cbbb40e9974ca7e27071d2c8
+
+2023-05-05 23:03:02,828 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-payment-seata-service-group+SEATA_GROUP, 1612293603000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,828 INFO [dump-all-ok] client.rm.tableMetaCheckerInterval+SEATA_GROUP, 1614556088000, length=5, md5=2b4226dd7ed6eb2d419b881f3ae9c97c
+
+2023-05-05 23:03:02,828 INFO [dump-all-ok] client.rm.sqlParserType+SEATA_GROUP, 1614556088000, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2023-05-05 23:03:02,829 INFO [dump-all-ok] client.undo.compress.enable+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:03:02,829 INFO [dump-all-ok] client.undo.compress.type+SEATA_GROUP, 1614556093000, length=3, md5=adcdbd79a8d84175c229b192aadc02f2
+
+2023-05-05 23:03:02,829 INFO [dump-all-ok] client.undo.compress.threshold+SEATA_GROUP, 1614556094000, length=3, md5=bd44a6458bdbff0b5cac721ba361f035
+
+2023-05-05 23:03:02,830 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-group-seata-service-group+SEATA_GROUP, 1616180507000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,830 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-seckill-seata-service-group+SEATA_GROUP, 1617229096000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,830 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-flow-seata-service-group+SEATA_GROUP, 1621622199000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:03:02,864 INFO [dump-all-ok] com.haust.service.service.third.QCodeService+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,865 INFO [dump-all-ok] com.haust.service.service.third.QCodeService:::provider:shop-third+dubbo, 1682952517000, length=3135, md5=d49a738e5cc678d9a3b593117a911705
+
+2023-05-05 23:03:02,865 INFO [dump-all-ok] com.haust.service.service.third.StorageService:::provider:shop-third+dubbo, 1682952518000, length=2556, md5=99c10e862fbb0e93eb896c812b5589c9
+
+2023-05-05 23:03:02,866 INFO [dump-all-ok] com.haust.service.service.third.StorageService+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,866 INFO [dump-all-ok] com.haust.service.service.third.Storage:::provider:shop-third+dubbo, 1682952519000, length=2046, md5=363f8ed2626b88dab4418dc8c3895129
+
+2023-05-05 23:03:02,866 INFO [dump-all-ok] com.haust.service.service.third.Storage+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,867 INFO [dump-all-ok] com.haust.service.service.third.DtsStorageService:::provider:shop-third+dubbo, 1682952520000, length=3064, md5=cd89950da001b0ded11407f4e63254f2
+
+2023-05-05 23:03:02,867 INFO [dump-all-ok] com.haust.service.service.third.DtsStorageService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,867 INFO [dump-all-ok] com.haust.service.service.third.ExpressService:::provider:shop-third+dubbo, 1682952520000, length=2354, md5=a14bf291af27cf26622048dd2b2779b2
+
+2023-05-05 23:03:02,868 INFO [dump-all-ok] com.haust.service.service.third.ExpressService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,868 INFO [dump-all-ok] com.haust.service.service.third.DtsFormUserIdService:::provider:shop-third+dubbo, 1682952521000, length=2442, md5=9e762a576be438ad037090517652b333
+
+2023-05-05 23:03:02,907 INFO [dump-all-ok] com.haust.service.service.third.DtsFormUserIdService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,908 INFO [dump-all-ok] com.haust.service.service.third.SmsSender:::provider:shop-third+dubbo, 1682952522000, length=1576, md5=cdd14951b71245b6b6149b79480bea42
+
+2023-05-05 23:03:02,909 INFO [dump-all-ok] com.haust.service.service.third.SmsSender+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,909 INFO [dump-all-ok] com.haust.service.service.third.DtsRegionService:::provider:shop-third+dubbo, 1682952523000, length=2106, md5=c5cbdf915ab17de1b0417c831433c00f
+
+2023-05-05 23:03:02,909 INFO [dump-all-ok] com.haust.service.service.third.DtsRegionService+mapping, 1682937921000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,910 INFO [dump-all-ok] com.haust.service.service.third.NotifyService:::provider:shop-third+dubbo, 1682952526000, length=2995, md5=c41b5b50eb0e9e062f63b28063f6986c
+
+2023-05-05 23:03:02,910 INFO [dump-all-ok] com.haust.service.service.third.NotifyService+mapping, 1682937921000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:03:02,910 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService+mapping, 1682952517000, length=31, md5=152fe0e9ee632761647b0b4eba9ac8df
+
+2023-05-05 23:03:02,910 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService+mapping, 1682952520000, length=31, md5=152fe0e9ee632761647b0b4eba9ac8df
+
+2023-05-05 23:03:02,910 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService:::provider:shop-search-rpc+dubbo, 1682952503000, length=3476, md5=afacd0a820a08b47a0e3af2be04c958e
+
+2023-05-05 23:03:02,911 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-rpc+dubbo, 1682952503000, length=2783, md5=7f21d1df7d867ec24276f76e111850e3
+
+2023-05-05 23:03:02,911 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService+mapping, 1682952518000, length=29, md5=768386f84287700a766312ec196e1002
+
+2023-05-05 23:03:02,911 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-rpc+dubbo, 1682952517000, length=2650, md5=cf06439460a2b78604a546b01945733b
+
+2023-05-05 23:03:02,945 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService+mapping, 1682952528000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:03:02,946 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-api+dubbo, 1682952517000, length=2709, md5=70981a830b3e1730807ea84173b587d2
+
+2023-05-05 23:03:02,970 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService+mapping, 1682952519000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 23:03:02,970 INFO [dump-all-ok] com.haust.service.service.order.DtsCartService+mapping, 1682952517000, length=13, md5=6473cc547422f49aec673206817b6089
+
+2023-05-05 23:03:02,970 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-api+dubbo, 1682952517000, length=1056, md5=db5478287b3ad2a3a22d790cb0b8e5b1
+
+2023-05-05 23:03:02,971 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-api+dubbo, 1682952517000, length=2784, md5=be76e7f87fb69d3b5b78e23bd9055975
+
+2023-05-05 23:03:02,971 INFO [dump-all-ok] com.haust.service.service.order.WxOrderService:::provider:shop-order-api+dubbo, 1682952517000, length=3481, md5=5f80266e3e98813e0fae3ead4bc0ac73
+
+2023-05-05 23:03:02,971 INFO [dump-all-ok] com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo, 1682952518000, length=4601, md5=7f64ee662473c0c18c2b169a79ca23dc
+
+2023-05-05 23:03:02,972 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo, 1682952517000, length=1056, md5=f60e8275c95520a2595ab8cb6c796fa7
+
+2023-05-05 23:03:02,972 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService+mapping, 1682952530000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:03:02,987 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-api+dubbo, 1682952518000, length=2649, md5=ea2aa1c18a1048e322f7fdec0d6f6425
+
+2023-05-05 23:03:02,988 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-api+dubbo, 1682952518000, length=3004, md5=4f74ab2ba2d9575d12eec4ef6213bbca
+
+2023-05-05 23:03:02,988 INFO [dump-all-ok] com.haust.service.service.order.WxOrderService+mapping, 1682952517000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 23:03:02,988 INFO [dump-all-ok] com.haust.service.service.user.DtsCollectService+mapping, 1682952518000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:02,989 INFO [dump-all-ok] com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo, 1682952518000, length=3333, md5=46a5c1c954ceec7aa2f4ff8dd9d97f8a
+
+2023-05-05 23:03:02,989 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService+mapping, 1682952521000, length=29, md5=768386f84287700a766312ec196e1002
+
+2023-05-05 23:03:02,989 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-api+dubbo, 1682952519000, length=2633, md5=aa2ebb391ee9f5bbd8db7757182f5871
+
+2023-05-05 23:03:02,989 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService+mapping, 1682952522000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 23:03:02,990 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-rpc+dubbo, 1682952519000, length=3499, md5=7f02946a59a89f0202b0635bc3c72a33
+
+2023-05-05 23:03:02,990 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsProductService+mapping, 1682952519000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 23:03:02,990 INFO [dump-all-ok] com.haust.service.service.order.SettlementOrderService+mapping, 1682952519000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 23:03:02,990 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-api+dubbo, 1682952519000, length=3639, md5=98f77ea69ae3778df99580917fd18ab6
+
+2023-05-05 23:03:02,991 INFO [dump-all-ok] com.haust.service.service.order.DtsGrouponService+mapping, 1682952519000, length=16, md5=fe9afd1ea8dd370a3490cc401016919d
+
+2023-05-05 23:03:02,991 INFO [dump-all-ok] com.haust.service.service.order.SettlementOrderService:::provider:shop-order-api+dubbo, 1682952519000, length=4771, md5=acdd3ab27ebc6adcf355bc0f9241030e
+
+2023-05-05 23:03:02,991 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService:::provider:shop-search-api+dubbo, 1682952519000, length=3477, md5=4a308102d2840156d21c1dd5cb626532
+
+2023-05-05 23:03:02,992 INFO [dump-all-ok] com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo, 1682952520000, length=4102, md5=4e706c9b4aaa58b336ea1153d9b806ac
+
+2023-05-05 23:03:02,992 INFO [dump-all-ok] com.haust.service.service.user.DtsAddressService+mapping, 1682952520000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:02,992 INFO [dump-all-ok] com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo, 1682952522000, length=3464, md5=d77b539deebcdb2fd1342d408326f347
+
+2023-05-05 23:03:02,992 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-api+dubbo, 1682952520000, length=3498, md5=7ce1de0c575048b8fe03a2dc2ff19730
+
+2023-05-05 23:03:02,993 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-api+dubbo, 1682952520000, length=4029, md5=72b707c4720309a2b647edde79e6fd90
+
+2023-05-05 23:03:02,993 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService+mapping, 1682952523000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 23:03:03,025 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsService:::provider:shop-product-api+dubbo, 1682952520000, length=6606, md5=18f37b1a012bb4d9e933407406a3aca4
+
+2023-05-05 23:03:03,025 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsService+mapping, 1682952520000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 23:03:03,026 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderService:::provider:shop-order-api+dubbo, 1682952520000, length=7010, md5=43b3e4cdf4dc76065a5392a6476b424d
+
+2023-05-05 23:03:03,026 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderService+mapping, 1682952520000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 23:03:03,026 INFO [dump-all-ok] com.haust.service.service.user.DtsAccountService+mapping, 1682952521000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:03,027 INFO [dump-all-ok] com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo, 1682952527000, length=6694, md5=59dc4b4fb4f2671a15898fc99961a2cc
+
+2023-05-05 23:03:03,027 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-rpc+dubbo, 1682952521000, length=2633, md5=d410f9fd32d54b81118ed1ca6150149c
+
+2023-05-05 23:03:03,027 INFO [dump-all-ok] com.haust.service.service.product.DtsGrouponRulesService+mapping, 1682952521000, length=16, md5=fe9afd1ea8dd370a3490cc401016919d
+
+2023-05-05 23:03:03,028 INFO [dump-all-ok] com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo, 1682952521000, length=4969, md5=fb77c5ea2dcb5dea60158b4978ccf04b
+
+2023-05-05 23:03:03,028 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService+mapping, 1682952532000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 23:03:03,028 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderGoodsService+mapping, 1682952522000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 23:03:03,028 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-api+dubbo, 1682952521000, length=6547, md5=37c1b4c2f705571443313e297224175b
+
+2023-05-05 23:03:03,029 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-api+dubbo, 1682952521000, length=3680, md5=3f68d2d51fd88bee222682226d561130
+
+2023-05-05 23:03:03,029 INFO [dump-all-ok] com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo, 1682952527000, length=2933, md5=efa9c537f6a710ab4d77ae420cdede20
+
+2023-05-05 23:03:03,029 INFO [dump-all-ok] com.haust.service.service.product.DtsBrandService:::provider:shop-product-api+dubbo, 1682952522000, length=4092, md5=1475d95929b9b7fa0a2c9b662e001d2a
+
+2023-05-05 23:03:03,029 INFO [dump-all-ok] com.haust.service.service.user.DtsFootprintService+mapping, 1682952522000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:03,030 INFO [dump-all-ok] com.haust.service.service.product.DtsBrandService+mapping, 1682952522000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 23:03:03,030 INFO [dump-all-ok] com.haust.shop.user.service.UserInfoService+mapping, 1682952523000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:03,030 INFO [dump-all-ok] com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo, 1682952527000, length=1553, md5=75ec1098139c52a0205aa8540c1b08e0
+
+2023-05-05 23:03:03,058 INFO [dump-all-ok] com.haust.service.service.product.DtsAdService:::provider:shop-product-api+dubbo, 1682952526000, length=3218, md5=9992203e269a14f954532cc0c8638c01
+
+2023-05-05 23:03:03,058 INFO [dump-all-ok] com.haust.service.service.product.DtsAdService+mapping, 1682952523000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 23:03:03,059 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-rpc+dubbo, 1682952540000, length=4029, md5=0c352436f7f046918834cab25317d0e3
+
+2023-05-05 23:03:03,059 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-api+dubbo, 1682952526000, length=3865, md5=71895210af004863389b5eaf6c96583d
+
+2023-05-05 23:03:03,060 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService+mapping, 1682952527000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:03:03,060 INFO [dump-all-ok] com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo, 1682952528000, length=1435, md5=c684a6c08e9838e50f44038df299579e
+
+2023-05-05 23:03:03,060 INFO [dump-all-ok] com.haust.service.service.user.WxAgencyService+mapping, 1682952526000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:03,061 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-rpc+dubbo, 1682952527000, length=3866, md5=776a2060b5a6948fcf6e7ee91759d8d3
+
+2023-05-05 23:03:03,061 INFO [dump-all-ok] com.haust.service.service.stat.StatService:::provider:shop-admin-api+dubbo, 1682952527000, length=1243, md5=e8e763d6e8bd6ceaaad72066b2336f2f
+
+2023-05-05 23:03:03,061 INFO [dump-all-ok] com.haust.service.service.stat.StatService+mapping, 1682952528000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:03:03,061 INFO [dump-all-ok] com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo, 1682952530000, length=1356, md5=e4f3ab29d0774a92e2f022f5ff9adffb
+
+2023-05-05 23:03:03,062 INFO [dump-all-ok] com.haust.service.service.user.DtsAgencyService+mapping, 1682952527000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:03,062 INFO [dump-all-ok] com.haust.service.service.product.DtsCategoryService:::provider:shop-product-api+dubbo, 1682952527000, length=4277, md5=ceef10ae666eb599565ad038fc778069
+
+2023-05-05 23:03:03,062 INFO [dump-all-ok] com.haust.service.service.product.DtsCategoryService+mapping, 1682952527000, length=16, md5=e7ac8b604b75150e7046dd9b2e97d6b7
+
+2023-05-05 23:03:03,094 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-api+dubbo, 1682952528000, length=2953, md5=422454edc9c8a6d5148436178103691f
+
+2023-05-05 23:03:03,094 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService+mapping, 1682952532000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:03:03,095 INFO [dump-all-ok] com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo, 1682952539000, length=4220, md5=9a10ba732ce4c85c4800c268e61bf390
+
+2023-05-05 23:03:03,095 INFO [dump-all-ok] com.haust.service.service.user.DtsCommentService+mapping, 1682952528000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:03,095 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo, 1682952528000, length=2709, md5=d4eb10dc55f974c160f2cf28ebaf4918
+
+2023-05-05 23:03:03,096 INFO [dump-all-ok] com.haust.service.service.stat.StatService:::provider:shop-admin-rpc+dubbo, 1682952528000, length=1244, md5=c730e5ac433021105b1320410f82618f
+
+2023-05-05 23:03:03,097 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-api+dubbo, 1682952528000, length=3254, md5=f9ecfdfaf094ec706d653b1cca578909
+
+2023-05-05 23:03:03,097 INFO [dump-all-ok] com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo, 1682952540000, length=5989, md5=4b7f4f524752c6e536f892f9f475b5b9
+
+2023-05-05 23:03:03,097 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService+mapping, 1682952530000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:03:03,098 INFO [dump-all-ok] com.haust.service.service.user.DtsUserService+mapping, 1682952528000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:03:03,098 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-api+dubbo, 1682952530000, length=2845, md5=4cb8eb6c2857c5ed648d02737fe1b299
+
+2023-05-05 23:03:03,129 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService+mapping, 1682952534000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:03:03,130 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-rpc+dubbo, 1682952530000, length=3004, md5=1fc1e07bfcc0b3fadf452d591713f09c
+
+2023-05-05 23:03:03,131 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-rpc+dubbo, 1682952530000, length=3255, md5=8aff46edd1c5355d84ccd972e52fc2f3
+
+2023-05-05 23:03:03,131 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-api+dubbo, 1682952532000, length=3566, md5=8746d6267cd4830647baece65b6c4bca
+
+2023-05-05 23:03:03,131 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService+mapping, 1682952556000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:03:03,132 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-rpc+dubbo, 1682952532000, length=6547, md5=d26324577f23b6f04d35eae41f346498
+
+2023-05-05 23:03:03,132 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-rpc+dubbo, 1682952532000, length=2954, md5=d7d133ffb872a716c2676b08600bd7a3
+
+2023-05-05 23:03:03,132 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-rpc+dubbo, 1682952539000, length=2846, md5=ba974335dbd0588aaf22640cf3f9fe4d
+
+2023-05-05 23:03:03,133 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-rpc+dubbo, 1682952541000, length=3567, md5=2bc208def0dace002595c494d31f5961
+
+2023-05-05 23:04:12,740 INFO [dump-task] add task. groupKey=com.haust.service.service.third.QCodeService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.QCodeService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:12,748 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo, taskKey=com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo++false+null
+
+2023-05-05 23:04:12,781 INFO [dump-task] add task. groupKey=com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-api+dubbo, taskKey=com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-api+dubbo++false+null
+
+2023-05-05 23:04:12,879 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo, taskKey=com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo++false+null
+
+2023-05-05 23:04:12,885 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-api+dubbo, taskKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-api+dubbo++false+null
+
+2023-05-05 23:04:12,896 INFO [dump-task] add task. groupKey=com.haust.service.service.order.WxOrderService:::provider:shop-order-api+dubbo, taskKey=com.haust.service.service.order.WxOrderService:::provider:shop-order-api+dubbo++false+null
+
+2023-05-05 23:04:12,905 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:04:12,934 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:12,964 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:04:12,965 INFO [dump-task] add task. groupKey=com.haust.service.service.order.SettlementOrderService:::provider:shop-order-rpc+dubbo, taskKey=com.haust.service.service.order.SettlementOrderService:::provider:shop-order-rpc+dubbo++false+null
+
+2023-05-05 23:04:12,966 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:04:12,967 INFO [dump-task] add task. groupKey=com.haust.service.service.search.DtsKeywordService:::provider:shop-search-api+dubbo, taskKey=com.haust.service.service.search.DtsKeywordService:::provider:shop-search-api+dubbo++false+null
+
+2023-05-05 23:04:12,994 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:04:12,995 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:13,023 INFO [dump-task] add task. groupKey=com.haust.service.service.third.StorageService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.StorageService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:13,037 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo, taskKey=com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo++false+null
+
+2023-05-05 23:04:13,105 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo, taskKey=com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo++false+null
+
+2023-05-05 23:04:13,126 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-api+dubbo, taskKey=com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-api+dubbo++false+null
+
+2023-05-05 23:04:13,155 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:13,174 INFO [dump-task] add task. groupKey=com.haust.service.service.third.Storage:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.Storage:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:13,209 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:04:13,229 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-api+dubbo, taskKey=com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-api+dubbo++false+null
+
+2023-05-05 23:04:13,232 INFO [dump-task] add task. groupKey=com.haust.service.service.order.SettlementOrderService:::provider:shop-order-api+dubbo, taskKey=com.haust.service.service.order.SettlementOrderService:::provider:shop-order-api+dubbo++false+null
+
+2023-05-05 23:04:13,247 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:04:13,264 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo, taskKey=com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo++false+null
+
+2023-05-05 23:04:13,270 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:13,295 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo, taskKey=com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo++false+null
+
+2023-05-05 23:04:13,494 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:04:13,530 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:04:13,629 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderService:::provider:shop-order-api+dubbo, taskKey=com.haust.service.service.order.DtsOrderService:::provider:shop-order-api+dubbo++false+null
+
+2023-05-05 23:04:13,659 INFO [dump-task] add task. groupKey=com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-rpc+dubbo, taskKey=com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-rpc+dubbo++false+null
+
+2023-05-05 23:04:14,030 INFO [dump-task] add task. groupKey=com.haust.service.service.order.SettlementOrderService+mapping, taskKey=com.haust.service.service.order.SettlementOrderService+mapping++false+null
+
+2023-05-05 23:04:14,357 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:04:14,362 INFO [dump-task] add task. groupKey=com.haust.service.service.search.DtsKeywordService:::provider:shop-search-rpc+dubbo, taskKey=com.haust.service.service.search.DtsKeywordService:::provider:shop-search-rpc+dubbo++false+null
+
+2023-05-05 23:04:14,799 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:04:14,813 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:04:14,835 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-api+dubbo, taskKey=com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-api+dubbo++false+null
+
+2023-05-05 23:04:14,858 INFO [dump-task] add task. groupKey=com.haust.service.service.third.DtsStorageService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.DtsStorageService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:14,870 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:04:14,900 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:14,907 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsProductService+mapping, taskKey=com.haust.service.service.product.DtsGoodsProductService+mapping++false+null
+
+2023-05-05 23:04:14,929 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:04:15,164 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-api+dubbo, taskKey=com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-api+dubbo++false+null
+
+2023-05-05 23:04:15,195 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:04:15,208 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:15,286 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsGoodsService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:04:15,290 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:04:15,338 WARN [dump-ignore] ignore to save cache file. groupKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo, md5=89904906404be74a50053810a80cba34, lastModifiedOld=1683299050302, lastModifiedNew=1683299054447
+
+2023-05-05 23:04:15,396 WARN [dump-ignore] ignore to save cache file. groupKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo, md5=1b0d6538eb2a17e0b7a42b4f8e2fd30c, lastModifiedOld=1683299051076, lastModifiedNew=1683299054919
+
+2023-05-05 23:04:15,410 INFO [dump-task] add task. groupKey=com.haust.service.service.third.ExpressService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.ExpressService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:15,455 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:04:15,653 INFO [dump-task] add task. groupKey=com.haust.service.service.stat.StatService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.stat.StatService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:04:15,660 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:15,710 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:04:15,777 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:15,946 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsBrandService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsBrandService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:04:15,993 INFO [dump-task] add task. groupKey=com.haust.service.service.third.DtsFormUserIdService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.DtsFormUserIdService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:16,004 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:04:16,193 INFO [dump-task] add task. groupKey=com.haust.service.service.stat.StatService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.stat.StatService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:04:16,207 INFO [dump-task] add task. groupKey=com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo, taskKey=com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:16,238 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsService+mapping, taskKey=com.haust.service.service.product.DtsGoodsService+mapping++false+null
+
+2023-05-05 23:04:16,294 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:04:16,312 INFO [dump-task] add task. groupKey=com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo, taskKey=com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:16,457 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsAdService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsAdService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:04:16,604 INFO [dump-task] add task. groupKey=com.haust.service.service.third.SmsSender:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.SmsSender:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:16,784 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderService:::provider:shop-order-rpc+dubbo, taskKey=com.haust.service.service.order.DtsOrderService:::provider:shop-order-rpc+dubbo++false+null
+
+2023-05-05 23:04:16,794 INFO [dump-task] add task. groupKey=com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:16,839 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:04:16,857 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderService+mapping, taskKey=com.haust.service.service.order.DtsOrderService+mapping++false+null
+
+2023-05-05 23:04:16,870 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:04:16,999 INFO [dump-task] add task. groupKey=com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:17,068 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:04:17,083 INFO [dump-task] add task. groupKey=com.haust.service.service.third.DtsRegionService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.DtsRegionService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:17,118 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsCategoryService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsCategoryService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:04:17,162 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsBrandService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsBrandService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:04:17,228 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:04:17,283 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsBrandService+mapping, taskKey=com.haust.service.service.product.DtsBrandService+mapping++false+null
+
+2023-05-05 23:04:17,505 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderGoodsService+mapping, taskKey=com.haust.service.service.order.DtsOrderGoodsService+mapping++false+null
+
+2023-05-05 23:04:17,532 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:17,533 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-rpc+dubbo, taskKey=com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-rpc+dubbo++false+null
+
+2023-05-05 23:04:17,543 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:04:17,545 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:17,679 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:04:17,684 INFO [dump-task] add task. groupKey=com.haust.service.service.third.NotifyService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.NotifyService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:04:17,768 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:17,961 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:04:17,961 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:17,993 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsAdService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsAdService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:04:18,076 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsAdService+mapping, taskKey=com.haust.service.service.product.DtsAdService+mapping++false+null
+
+2023-05-05 23:04:18,171 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:18,374 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:04:18,381 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:04:18,583 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsCategoryService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsCategoryService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:04:18,647 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsCategoryService+mapping, taskKey=com.haust.service.service.product.DtsCategoryService+mapping++false+null
+
+2023-05-05 23:41:50,533 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1627701632000, length=2017, md5=1a3f834c5c7abac7a92187a5a6d0b434
+
+2023-05-05 23:41:50,534 INFO [dump-all-ok] mall4cloud-auth.yml+DEFAULT_GROUP, 1627701693000, length=506, md5=a849cbe0a73f68593e0f9b9e196f5e59
+
+2023-05-05 23:41:50,534 INFO [dump-all-ok] mall4cloud-multishop.yml+DEFAULT_GROUP, 1627701705000, length=440, md5=a588ee15a639d69dab4b4b175eeb1f2c
+
+2023-05-05 23:41:50,535 INFO [dump-all-ok] mall4cloud-leaf.yml+DEFAULT_GROUP, 1627701715000, length=435, md5=e9e004b4ddaf03051687802ccbde293a
+
+2023-05-05 23:41:50,535 INFO [dump-all-ok] mall4cloud-rbac.yml+DEFAULT_GROUP, 1627701724000, length=430, md5=03f922e464c24f89eb6225f6ded6a0f3
+
+2023-05-05 23:41:50,535 INFO [dump-all-ok] mall4cloud-biz.yml+DEFAULT_GROUP, 1627701741000, length=697, md5=45611da025e4ec0f1eab9079a8252815
+
+2023-05-05 23:41:50,536 INFO [dump-all-ok] mall4cloud-product.yml+DEFAULT_GROUP, 1627701765000, length=438, md5=31d40c9017e605a0a43e1b102fae20e0
+
+2023-05-05 23:41:50,536 INFO [dump-all-ok] mall4cloud-search.yml+DEFAULT_GROUP, 1617347605000, length=61, md5=2567ac7c75a7e38413ce9a2a05ecf0fd
+
+2023-05-05 23:41:50,537 INFO [dump-all-ok] mall4cloud-gateway.yml+DEFAULT_GROUP, 1621553260000, length=4407, md5=02ae70655df2880a0de0431ad101571c
+
+2023-05-05 23:41:50,538 INFO [dump-all-ok] transport.type+SEATA_GROUP, 1614556085000, length=3, md5=b136ef5f6a01d816991fe3cf7a6ac763
+
+2023-05-05 23:41:50,538 INFO [dump-all-ok] transport.server+SEATA_GROUP, 1614556085000, length=3, md5=b6d9dfc0fb54277321cebc0fff55df2f
+
+2023-05-05 23:41:50,539 INFO [dump-all-ok] transport.heartbeat+SEATA_GROUP, 1614556085000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:41:50,539 INFO [dump-all-ok] transport.enableClientBatchSendRequest+SEATA_GROUP, 1614556085000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,539 INFO [dump-all-ok] transport.threadFactory.bossThreadPrefix+SEATA_GROUP, 1614556086000, length=9, md5=0f8db59a3b7f2823f38a70c308361836
+
+2023-05-05 23:41:50,539 INFO [dump-all-ok] transport.threadFactory.workerThreadPrefix+SEATA_GROUP, 1614556086000, length=20, md5=a78ec7ef5d1631754c4e72ae8a3e9205
+
+2023-05-05 23:41:50,540 INFO [dump-all-ok] transport.threadFactory.serverExecutorThreadPrefix+SEATA_GROUP, 1614556086000, length=21, md5=11a36309f3d9df84fa8b59cf071fa2da
+
+2023-05-05 23:41:50,540 INFO [dump-all-ok] transport.threadFactory.shareBossWorker+SEATA_GROUP, 1614556086000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,540 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadPrefix+SEATA_GROUP, 1614556086000, length=19, md5=cd7ec5a06541e75f5a7913752322c3af
+
+2023-05-05 23:41:50,541 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadSize+SEATA_GROUP, 1614556086000, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2023-05-05 23:41:50,541 INFO [dump-all-ok] transport.threadFactory.clientWorkerThreadPrefix+SEATA_GROUP, 1614556086000, length=23, md5=61cf4e69a56354cf72f46dc86414a57e
+
+2023-05-05 23:41:50,541 INFO [dump-all-ok] transport.threadFactory.bossThreadSize+SEATA_GROUP, 1614556087000, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2023-05-05 23:41:50,542 INFO [dump-all-ok] transport.threadFactory.workerThreadSize+SEATA_GROUP, 1614556087000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,542 INFO [dump-all-ok] transport.shutdown.wait+SEATA_GROUP, 1614556087000, length=1, md5=eccbc87e4b5ce2fe28308fd9f2a7baf3
+
+2023-05-05 23:41:50,542 INFO [dump-all-ok] service.vgroupMapping.my_test_tx_group+SEATA_GROUP, 1614556087000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,542 INFO [dump-all-ok] service.default.grouplist+SEATA_GROUP, 1614556087000, length=19, md5=b21b0aa1543adb96d791e9ef9add1cc4
+
+2023-05-05 23:41:50,543 INFO [dump-all-ok] service.enableDegrade+SEATA_GROUP, 1614556087000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,543 INFO [dump-all-ok] service.disableGlobalTransaction+SEATA_GROUP, 1614556087000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,543 INFO [dump-all-ok] client.rm.asyncCommitBufferLimit+SEATA_GROUP, 1614556087000, length=5, md5=b7a782741f667201b54880c925faec4b
+
+2023-05-05 23:41:50,544 INFO [dump-all-ok] client.rm.lock.retryInterval+SEATA_GROUP, 1614556088000, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2023-05-05 23:41:50,544 INFO [dump-all-ok] client.rm.lock.retryTimes+SEATA_GROUP, 1614556088000, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2023-05-05 23:41:50,544 INFO [dump-all-ok] client.rm.lock.retryPolicyBranchRollbackOnConflict+SEATA_GROUP, 1614556088000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:41:50,544 INFO [dump-all-ok] client.rm.reportRetryCount+SEATA_GROUP, 1614556088000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 23:41:50,544 INFO [dump-all-ok] client.rm.tableMetaCheckEnable+SEATA_GROUP, 1614556088000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,545 INFO [dump-all-ok] client.rm.reportSuccessEnable+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,545 INFO [dump-all-ok] client.rm.sagaBranchRegisterEnable+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,545 INFO [dump-all-ok] client.tm.commitRetryCount+SEATA_GROUP, 1614556089000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 23:41:50,545 INFO [dump-all-ok] client.tm.rollbackRetryCount+SEATA_GROUP, 1614556089000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 23:41:50,546 INFO [dump-all-ok] client.tm.defaultGlobalTransactionTimeout+SEATA_GROUP, 1614556089000, length=5, md5=2b4226dd7ed6eb2d419b881f3ae9c97c
+
+2023-05-05 23:41:50,546 INFO [dump-all-ok] client.tm.degradeCheck+SEATA_GROUP, 1614556089000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,546 INFO [dump-all-ok] client.tm.degradeCheckAllowTimes+SEATA_GROUP, 1614556089000, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2023-05-05 23:41:50,547 INFO [dump-all-ok] client.tm.degradeCheckPeriod+SEATA_GROUP, 1614556090000, length=4, md5=08f90c1a417155361a5c4b8d297e0d78
+
+2023-05-05 23:41:50,547 INFO [dump-all-ok] store.mode+SEATA_GROUP, 1614556090000, length=2, md5=d77d5e503ad1439f585ac494268b351b
+
+2023-05-05 23:41:50,547 INFO [dump-all-ok] store.db.datasource+SEATA_GROUP, 1614556090000, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2023-05-05 23:41:50,547 INFO [dump-all-ok] store.db.dbType+SEATA_GROUP, 1614556090000, length=5, md5=81c3b080dad537de7e10e0987a4bf52e
+
+2023-05-05 23:41:50,548 INFO [dump-all-ok] store.db.driverClassName+SEATA_GROUP, 1616023361000, length=24, md5=33763409bb7f4838bde4fae9540433e4
+
+2023-05-05 23:41:50,548 INFO [dump-all-ok] store.db.url+SEATA_GROUP, 1623801432000, length=258, md5=7b2de6851c86b0fe4a57fe645c041bb2
+
+2023-05-05 23:41:50,548 INFO [dump-all-ok] store.db.user+SEATA_GROUP, 1614556090000, length=4, md5=63a9f0ea7bb98050796b649e85481845
+
+2023-05-05 23:41:50,548 INFO [dump-all-ok] store.db.password+SEATA_GROUP, 1614556091000, length=4, md5=63a9f0ea7bb98050796b649e85481845
+
+2023-05-05 23:41:50,549 INFO [dump-all-ok] store.db.minConn+SEATA_GROUP, 1614556091000, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2023-05-05 23:41:50,549 INFO [dump-all-ok] store.db.maxConn+SEATA_GROUP, 1614556091000, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2023-05-05 23:41:50,549 INFO [dump-all-ok] store.db.globalTable+SEATA_GROUP, 1614556091000, length=12, md5=8b28fb6bb4c4f984df2709381f8eba2b
+
+2023-05-05 23:41:50,549 INFO [dump-all-ok] store.db.branchTable+SEATA_GROUP, 1614556091000, length=12, md5=54bcdac38cf62e103fe115bcf46a660c
+
+2023-05-05 23:41:50,550 INFO [dump-all-ok] store.db.queryLimit+SEATA_GROUP, 1614556091000, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2023-05-05 23:41:50,550 INFO [dump-all-ok] store.db.lockTable+SEATA_GROUP, 1614556091000, length=10, md5=55e0cae3b6dc6696b768db90098b8f2f
+
+2023-05-05 23:41:50,551 INFO [dump-all-ok] store.db.maxWait+SEATA_GROUP, 1614556091000, length=4, md5=a35fe7f7fe8217b4369a0af4244d1fca
+
+2023-05-05 23:41:50,551 INFO [dump-all-ok] server.recovery.committingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 23:41:50,552 INFO [dump-all-ok] server.recovery.asynCommittingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 23:41:50,552 INFO [dump-all-ok] server.recovery.rollbackingRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 23:41:50,552 INFO [dump-all-ok] server.recovery.timeoutRetryPeriod+SEATA_GROUP, 1614556092000, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2023-05-05 23:41:50,553 INFO [dump-all-ok] server.maxCommitRetryTimeout+SEATA_GROUP, 1614556092000, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2023-05-05 23:41:50,553 INFO [dump-all-ok] server.maxRollbackRetryTimeout+SEATA_GROUP, 1614556092000, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2023-05-05 23:41:50,553 INFO [dump-all-ok] server.rollbackRetryTimeoutUnlockEnable+SEATA_GROUP, 1614556092000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,553 INFO [dump-all-ok] client.undo.dataValidation+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:41:50,554 INFO [dump-all-ok] client.undo.logSerialization+SEATA_GROUP, 1614557248000, length=7, md5=b41779690b83f182acc67d6388c7bac9
+
+2023-05-05 23:41:50,554 INFO [dump-all-ok] client.undo.onlyCareUpdateColumns+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:41:50,554 INFO [dump-all-ok] server.undo.logSaveDays+SEATA_GROUP, 1614556093000, length=1, md5=8f14e45fceea167a5a36dedd4bea2543
+
+2023-05-05 23:41:50,555 INFO [dump-all-ok] server.undo.logDeletePeriod+SEATA_GROUP, 1614556093000, length=8, md5=f4c122804fe9076cb2710f55c3c6e346
+
+2023-05-05 23:41:50,555 INFO [dump-all-ok] client.undo.logTable+SEATA_GROUP, 1614556093000, length=8, md5=2842d229c24afe9e61437135e8306614
+
+2023-05-05 23:41:50,555 INFO [dump-all-ok] log.exceptionRate+SEATA_GROUP, 1614556094000, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2023-05-05 23:41:50,556 INFO [dump-all-ok] transport.serialization+SEATA_GROUP, 1614556094000, length=5, md5=b943081c423b9a5416a706524ee05d40
+
+2023-05-05 23:41:50,556 INFO [dump-all-ok] transport.compressor+SEATA_GROUP, 1614556094000, length=4, md5=334c4a4c42fdb79d7ebc3e73b517e6f8
+
+2023-05-05 23:41:50,556 INFO [dump-all-ok] metrics.enabled+SEATA_GROUP, 1614556094000, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2023-05-05 23:41:50,556 INFO [dump-all-ok] metrics.registryType+SEATA_GROUP, 1614556094000, length=7, md5=7cf74ca49c304df8150205fc915cd465
+
+2023-05-05 23:41:50,557 INFO [dump-all-ok] metrics.exporterList+SEATA_GROUP, 1614556094000, length=10, md5=e4f00638b8a10e6994e67af2f832d51c
+
+2023-05-05 23:41:50,557 INFO [dump-all-ok] metrics.exporterPrometheusPort+SEATA_GROUP, 1614556095000, length=4, md5=7b9dc501afe4ee11c56a4831e20cee71
+
+2023-05-05 23:41:50,557 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-auth-seata-service-group+SEATA_GROUP, 1606701342000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,557 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-multishop-seata-service-group+SEATA_GROUP, 1606701423000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,558 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-rbac-seata-service-group+SEATA_GROUP, 1606701437000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,558 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-product-seata-service-group+SEATA_GROUP, 1606772813000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,558 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-biz-seata-service-group+SEATA_GROUP, 1606772837000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,559 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-leaf-seata-service-group+SEATA_GROUP, 1606772864000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,559 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-order-seata-service-group+SEATA_GROUP, 1606772880000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,559 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-user-seata-service-group+SEATA_GROUP, 1606772895000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,559 INFO [dump-all-ok] mall4cloud-order.yml+DEFAULT_GROUP, 1617339224000, length=436, md5=0e3b70a6fa240d49e35f3474ebdad829
+
+2023-05-05 23:41:50,560 INFO [dump-all-ok] mall4cloud-user.yml+DEFAULT_GROUP, 1617339289000, length=435, md5=c7606eaf39a5940df1c3ae0282cb1227
+
+2023-05-05 23:41:50,560 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-coupon-seata-service-group+SEATA_GROUP, 1607449795000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,560 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-delivery-seata-service-group+SEATA_GROUP, 1607887809000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,560 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-discount-seata-service-group+SEATA_GROUP, 1608070394000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,561 INFO [dump-all-ok] mall4cloud-platform.yml+DEFAULT_GROUP, 1617339359000, length=439, md5=3125f3cda2cf842e9db5ff5f7312b2ae
+
+2023-05-05 23:41:50,561 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-platform-seata-service-group+SEATA_GROUP, 1608507661000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,561 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-search-seata-service-group+SEATA_GROUP, 1608574791000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,561 INFO [dump-all-ok] mall4cloud-payment.yml+DEFAULT_GROUP, 1617339374000, length=509, md5=b6cb1609cbbb40e9974ca7e27071d2c8
+
+2023-05-05 23:41:50,562 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-payment-seata-service-group+SEATA_GROUP, 1612293603000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,562 INFO [dump-all-ok] client.rm.tableMetaCheckerInterval+SEATA_GROUP, 1614556088000, length=5, md5=2b4226dd7ed6eb2d419b881f3ae9c97c
+
+2023-05-05 23:41:50,562 INFO [dump-all-ok] client.rm.sqlParserType+SEATA_GROUP, 1614556088000, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2023-05-05 23:41:50,563 INFO [dump-all-ok] client.undo.compress.enable+SEATA_GROUP, 1614556093000, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2023-05-05 23:41:50,563 INFO [dump-all-ok] client.undo.compress.type+SEATA_GROUP, 1614556093000, length=3, md5=adcdbd79a8d84175c229b192aadc02f2
+
+2023-05-05 23:41:50,563 INFO [dump-all-ok] client.undo.compress.threshold+SEATA_GROUP, 1614556094000, length=3, md5=bd44a6458bdbff0b5cac721ba361f035
+
+2023-05-05 23:41:50,563 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-group-seata-service-group+SEATA_GROUP, 1616180507000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,564 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-seckill-seata-service-group+SEATA_GROUP, 1617229096000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,564 INFO [dump-all-ok] service.vgroupMapping.mall4cloud-flow-seata-service-group+SEATA_GROUP, 1621622199000, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2023-05-05 23:41:50,564 INFO [dump-all-ok] com.haust.service.service.third.QCodeService+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,565 INFO [dump-all-ok] com.haust.service.service.third.QCodeService:::provider:shop-third+dubbo, 1683299051000, length=3135, md5=e5d12b5608afb496ccc6f647e73e6cf0
+
+2023-05-05 23:41:50,565 INFO [dump-all-ok] com.haust.service.service.third.StorageService:::provider:shop-third+dubbo, 1683299053000, length=2556, md5=933a5dedbc7e5de84927431966f2fd38
+
+2023-05-05 23:41:50,565 INFO [dump-all-ok] com.haust.service.service.third.StorageService+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,565 INFO [dump-all-ok] com.haust.service.service.third.Storage:::provider:shop-third+dubbo, 1683299053000, length=2046, md5=afc79c150cab8f9dfcea82c617c24555
+
+2023-05-05 23:41:50,566 INFO [dump-all-ok] com.haust.service.service.third.Storage+mapping, 1682937919000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,569 INFO [dump-all-ok] com.haust.service.service.third.DtsStorageService:::provider:shop-third+dubbo, 1683299055000, length=3064, md5=9a56dba2a6135301466ac39495e40cfd
+
+2023-05-05 23:41:50,570 INFO [dump-all-ok] com.haust.service.service.third.DtsStorageService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,570 INFO [dump-all-ok] com.haust.service.service.third.ExpressService:::provider:shop-third+dubbo, 1683299055000, length=2354, md5=ee8bcf61c2e3209af87963f627ae6347
+
+2023-05-05 23:41:50,570 INFO [dump-all-ok] com.haust.service.service.third.ExpressService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,571 INFO [dump-all-ok] com.haust.service.service.third.DtsFormUserIdService:::provider:shop-third+dubbo, 1683299056000, length=2442, md5=8974f801d2563d8faed9d1426793fe71
+
+2023-05-05 23:41:50,571 INFO [dump-all-ok] com.haust.service.service.third.DtsFormUserIdService+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,572 INFO [dump-all-ok] com.haust.service.service.third.SmsSender:::provider:shop-third+dubbo, 1683299056000, length=1576, md5=4aeb03b73631acb4473bb65d3b031db1
+
+2023-05-05 23:41:50,572 INFO [dump-all-ok] com.haust.service.service.third.SmsSender+mapping, 1682937920000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,572 INFO [dump-all-ok] com.haust.service.service.third.DtsRegionService:::provider:shop-third+dubbo, 1683299057000, length=2106, md5=825e05a3f571e02ab8fd92cab3d7eb96
+
+2023-05-05 23:41:50,573 INFO [dump-all-ok] com.haust.service.service.third.DtsRegionService+mapping, 1682937921000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,573 INFO [dump-all-ok] com.haust.service.service.third.NotifyService:::provider:shop-third+dubbo, 1683299058000, length=2995, md5=f84d5b527d94dcbc6854bdbd3947d8bf
+
+2023-05-05 23:41:50,573 INFO [dump-all-ok] com.haust.service.service.third.NotifyService+mapping, 1682937921000, length=10, md5=e10df6931f00a830b531cc77b28095c9
+
+2023-05-05 23:41:50,573 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService+mapping, 1682952517000, length=31, md5=152fe0e9ee632761647b0b4eba9ac8df
+
+2023-05-05 23:41:50,574 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService+mapping, 1682952520000, length=31, md5=152fe0e9ee632761647b0b4eba9ac8df
+
+2023-05-05 23:41:50,574 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService:::provider:shop-search-rpc+dubbo, 1683299054000, length=3477, md5=55e105b76c99a4ff2f0ad5441a9e4c53
+
+2023-05-05 23:41:50,574 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-rpc+dubbo, 1683299051000, length=2784, md5=e762ca26fb9db869efb9d45900fe72aa
+
+2023-05-05 23:41:50,575 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService+mapping, 1682952518000, length=29, md5=768386f84287700a766312ec196e1002
+
+2023-05-05 23:41:50,588 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-rpc+dubbo, 1683299051000, length=2649, md5=68d85a69e25777d60e7ad745c6e9c784
+
+2023-05-05 23:41:50,588 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService+mapping, 1682952528000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:41:50,589 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-api+dubbo, 1683299052000, length=2709, md5=4346fbe30879651f42f04cf61aabda43
+
+2023-05-05 23:41:50,589 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService+mapping, 1682952519000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 23:41:50,589 INFO [dump-all-ok] com.haust.service.service.order.DtsCartService+mapping, 1682952517000, length=13, md5=6473cc547422f49aec673206817b6089
+
+2023-05-05 23:41:50,590 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-api+dubbo, 1683299051000, length=1056, md5=daf8f6e1b369083eba9ec1103a3d98fb
+
+2023-05-05 23:41:50,590 INFO [dump-all-ok] com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-api+dubbo, 1683299051000, length=2784, md5=e64f18abf6dd9fa1aefc228a436332aa
+
+2023-05-05 23:41:50,590 INFO [dump-all-ok] com.haust.service.service.order.WxOrderService:::provider:shop-order-api+dubbo, 1683299051000, length=3481, md5=dbc333134e9584a20a7102bbcda416a1
+
+2023-05-05 23:41:50,591 INFO [dump-all-ok] com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo, 1683299051000, length=4601, md5=f3fb96e52ace7a888571d5824a27bec6
+
+2023-05-05 23:41:50,591 INFO [dump-all-ok] com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo, 1683299054000, length=1055, md5=89904906404be74a50053810a80cba34
+
+2023-05-05 23:41:50,591 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService+mapping, 1682952530000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:41:50,592 INFO [dump-all-ok] com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-api+dubbo, 1683299052000, length=2649, md5=90f23de1285e2c5ac78de21f63847d84
+
+2023-05-05 23:41:50,592 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-api+dubbo, 1683299053000, length=3004, md5=3f6cec0680dbd4230a56dd493c3ddebb
+
+2023-05-05 23:41:50,593 INFO [dump-all-ok] com.haust.service.service.order.WxOrderService+mapping, 1682952517000, length=14, md5=c4e250e834e2b85126d689040fd1f73a
+
+2023-05-05 23:41:50,593 INFO [dump-all-ok] com.haust.service.service.user.DtsCollectService+mapping, 1682952518000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,593 INFO [dump-all-ok] com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo, 1683299052000, length=3333, md5=6072c96203412732227dc2d9f2caed71
+
+2023-05-05 23:41:50,594 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService+mapping, 1682952521000, length=29, md5=768386f84287700a766312ec196e1002
+
+2023-05-05 23:41:50,594 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-api+dubbo, 1683299053000, length=2633, md5=93b3328be66a193fdbbac68769a47cde
+
+2023-05-05 23:41:50,594 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService+mapping, 1682952522000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 23:41:50,594 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-rpc+dubbo, 1683299055000, length=3498, md5=17428cffa91b76bcaca5ce2b27e11385
+
+2023-05-05 23:41:50,595 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsProductService+mapping, 1683299055000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:41:50,595 INFO [dump-all-ok] com.haust.service.service.order.SettlementOrderService+mapping, 1683299050000, length=29, md5=9d9c23edb4502ec02253861fab202a1e
+
+2023-05-05 23:41:50,595 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-api+dubbo, 1683299053000, length=3639, md5=e204fff21b552db6d23a4e177a53eee2
+
+2023-05-05 23:41:50,596 INFO [dump-all-ok] com.haust.service.service.order.DtsGrouponService+mapping, 1682952519000, length=16, md5=fe9afd1ea8dd370a3490cc401016919d
+
+2023-05-05 23:41:50,596 INFO [dump-all-ok] com.haust.service.service.order.SettlementOrderService:::provider:shop-order-api+dubbo, 1683299053000, length=4771, md5=3108098cf43bf3556ccbee9d35e28981
+
+2023-05-05 23:41:50,597 INFO [dump-all-ok] com.haust.service.service.search.DtsKeywordService:::provider:shop-search-api+dubbo, 1683299053000, length=3477, md5=48312f56b65c570004836139138bd055
+
+2023-05-05 23:41:50,598 INFO [dump-all-ok] com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo, 1683299051000, length=4103, md5=b4a7910700afb6722bfd35cf70e902d1
+
+2023-05-05 23:41:50,598 INFO [dump-all-ok] com.haust.service.service.user.DtsAddressService+mapping, 1682952520000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,599 INFO [dump-all-ok] com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo, 1683299053000, length=3464, md5=72e9a446b04ba19c2bc5cfb18a5685d0
+
+2023-05-05 23:41:50,599 INFO [dump-all-ok] com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-api+dubbo, 1683299053000, length=3498, md5=5111fd06e154c543476f117ea3951ecf
+
+2023-05-05 23:41:50,599 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-api+dubbo, 1683299053000, length=4029, md5=5de6c4249712e39a2f901ce8f04eafcd
+
+2023-05-05 23:41:50,600 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService+mapping, 1682952523000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 23:41:50,600 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsService:::provider:shop-product-api+dubbo, 1683299055000, length=6606, md5=ec2167d2291e9f82ba295c716f60accd
+
+2023-05-05 23:41:50,601 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsService+mapping, 1683299056000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:41:50,601 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderService:::provider:shop-order-api+dubbo, 1683299053000, length=7010, md5=e9a2c906575846c0c3684273f5facdf2
+
+2023-05-05 23:41:50,604 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderService+mapping, 1683299057000, length=29, md5=9d9c23edb4502ec02253861fab202a1e
+
+2023-05-05 23:41:50,607 INFO [dump-all-ok] com.haust.service.service.user.DtsAccountService+mapping, 1682952521000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,607 INFO [dump-all-ok] com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo, 1683299055000, length=6694, md5=f414016916ebc8deb8241a03c8469ca8
+
+2023-05-05 23:41:50,608 INFO [dump-all-ok] com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-rpc+dubbo, 1683299055000, length=2632, md5=af18b5c3a97d7ed55319b2d574cd2d41
+
+2023-05-05 23:41:50,608 INFO [dump-all-ok] com.haust.service.service.product.DtsGrouponRulesService+mapping, 1682952521000, length=16, md5=fe9afd1ea8dd370a3490cc401016919d
+
+2023-05-05 23:41:50,608 INFO [dump-all-ok] com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo, 1683299053000, length=4970, md5=2f13039b9b2e025926e2b0340ba11802
+
+2023-05-05 23:41:50,609 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService+mapping, 1682952532000, length=31, md5=7e51e64a55686aaf8057e2cd3b795086
+
+2023-05-05 23:41:50,610 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderGoodsService+mapping, 1683299057000, length=29, md5=9d9c23edb4502ec02253861fab202a1e
+
+2023-05-05 23:41:50,610 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-api+dubbo, 1683299054000, length=6547, md5=ec60a417934d68682c70d28e8c28de10
+
+2023-05-05 23:41:50,612 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-api+dubbo, 1683299054000, length=3680, md5=7e4ba1fc49039de54223cdff6dc6a875
+
+2023-05-05 23:41:50,613 INFO [dump-all-ok] com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo, 1683299056000, length=2933, md5=d7ca72fb82639cf8e9d1a401509bba3f
+
+2023-05-05 23:41:50,613 INFO [dump-all-ok] com.haust.service.service.product.DtsBrandService:::provider:shop-product-api+dubbo, 1683299056000, length=4092, md5=5241728b8086a19bd1691b077cf65524
+
+2023-05-05 23:41:50,613 INFO [dump-all-ok] com.haust.service.service.user.DtsFootprintService+mapping, 1682952522000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,614 INFO [dump-all-ok] com.haust.service.service.product.DtsBrandService+mapping, 1683299057000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:41:50,614 INFO [dump-all-ok] com.haust.shop.user.service.UserInfoService+mapping, 1682952523000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,614 INFO [dump-all-ok] com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo, 1683299056000, length=1553, md5=57c600c80eaabaf57b6260dcbb314ac8
+
+2023-05-05 23:41:50,614 INFO [dump-all-ok] com.haust.service.service.product.DtsAdService:::provider:shop-product-api+dubbo, 1683299056000, length=3218, md5=b698825780b30edbf5a1343a7d1a83e8
+
+2023-05-05 23:41:50,615 INFO [dump-all-ok] com.haust.service.service.product.DtsAdService+mapping, 1683299058000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:41:50,615 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-rpc+dubbo, 1683299057000, length=4028, md5=96bcacaedb8b4cb47c3329e3938be4b6
+
+2023-05-05 23:41:50,615 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-api+dubbo, 1683299055000, length=3865, md5=32bdc9099b6c4bd69536728a0ac2308d
+
+2023-05-05 23:41:50,616 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService+mapping, 1682952527000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:41:50,616 INFO [dump-all-ok] com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo, 1683299057000, length=1435, md5=f760f30b37cb1cbc3fbb96cb22b28833
+
+2023-05-05 23:41:50,616 INFO [dump-all-ok] com.haust.service.service.user.WxAgencyService+mapping, 1682952526000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,616 INFO [dump-all-ok] com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-rpc+dubbo, 1683299055000, length=3865, md5=fcda4642359febcbb0914657843c7945
+
+2023-05-05 23:41:50,617 INFO [dump-all-ok] com.haust.service.service.stat.StatService:::provider:shop-admin-api+dubbo, 1683299055000, length=1243, md5=a539176724baa58bc5ee3714012c4164
+
+2023-05-05 23:41:50,617 INFO [dump-all-ok] com.haust.service.service.stat.StatService+mapping, 1682952528000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:41:50,617 INFO [dump-all-ok] com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo, 1683299057000, length=1357, md5=747630e3f05c94dd484ac165a569e9d6
+
+2023-05-05 23:41:50,617 INFO [dump-all-ok] com.haust.service.service.user.DtsAgencyService+mapping, 1682952527000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,617 INFO [dump-all-ok] com.haust.service.service.product.DtsCategoryService:::provider:shop-product-api+dubbo, 1683299057000, length=4277, md5=b8930b00fa0a59acd9989e833ab9f7f4
+
+2023-05-05 23:41:50,618 INFO [dump-all-ok] com.haust.service.service.product.DtsCategoryService+mapping, 1683299059000, length=33, md5=d4b268f7cc9d0b9c9a71d3f38b35839d
+
+2023-05-05 23:41:50,618 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-api+dubbo, 1683299056000, length=2953, md5=1758133b3735a1c5faba7baeb873699b
+
+2023-05-05 23:41:50,618 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService+mapping, 1682952532000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:41:50,618 INFO [dump-all-ok] com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo, 1683299058000, length=4221, md5=6171b8b39af8430ae7983c68c8164be2
+
+2023-05-05 23:41:50,619 INFO [dump-all-ok] com.haust.service.service.user.DtsCommentService+mapping, 1682952528000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,619 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo, 1683299055000, length=2708, md5=1b0d6538eb2a17e0b7a42b4f8e2fd30c
+
+2023-05-05 23:41:50,620 INFO [dump-all-ok] com.haust.service.service.stat.StatService:::provider:shop-admin-rpc+dubbo, 1683299056000, length=1243, md5=f6244c8c56975a031d54146b9bea9ff5
+
+2023-05-05 23:41:50,621 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-api+dubbo, 1683299057000, length=3254, md5=f264c584efa1541cb083a4e26924b92e
+
+2023-05-05 23:41:50,621 INFO [dump-all-ok] com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo, 1683299058000, length=5989, md5=247c6b24810a957b62919840aa110fe5
+
+2023-05-05 23:41:50,622 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService+mapping, 1682952530000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:41:50,625 INFO [dump-all-ok] com.haust.service.service.user.DtsUserService+mapping, 1682952528000, length=13, md5=18a4f1bcffe472fd3104442d657202b4
+
+2023-05-05 23:41:50,628 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-api+dubbo, 1683299057000, length=2845, md5=73033e2920ad7dd33451ac09bfff51ff
+
+2023-05-05 23:41:50,629 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService+mapping, 1682952534000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:41:50,629 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-rpc+dubbo, 1683299054000, length=3003, md5=0c4d2c27a81d3ec7366fc43d1d8486dc
+
+2023-05-05 23:41:50,629 INFO [dump-all-ok] com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-rpc+dubbo, 1683299057000, length=3254, md5=bcf7427d886c8dee21bdea101c8d0528
+
+2023-05-05 23:41:50,630 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-api+dubbo, 1683299058000, length=3566, md5=8e6894b83bd85a12285ccf92272e4bb2
+
+2023-05-05 23:41:50,630 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService+mapping, 1682952556000, length=29, md5=e826be851cc31127cb7f21f9621d401f
+
+2023-05-05 23:41:50,630 INFO [dump-all-ok] com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-rpc+dubbo, 1683299054000, length=6546, md5=d5d4f2592577a82fca76ef48731260ee
+
+2023-05-05 23:41:50,630 INFO [dump-all-ok] com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-rpc+dubbo, 1683299057000, length=2953, md5=84a497671eda9f9f9b860304b55c080c
+
+2023-05-05 23:41:50,631 INFO [dump-all-ok] com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-rpc+dubbo, 1683299058000, length=2845, md5=a26f07732dfa6880f786fbc31f199b0b
+
+2023-05-05 23:41:50,632 INFO [dump-all-ok] com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-rpc+dubbo, 1683299058000, length=3566, md5=9c1696144d7029c751e9f855aa6a5bd0
+
+2023-05-05 23:41:50,632 INFO [dump-all-ok] com.haust.service.service.order.SettlementOrderService:::provider:shop-order-rpc+dubbo, 1683299050000, length=4770, md5=c0e06b04cc738e2d6897aaa071b3c08d
+
+2023-05-05 23:41:50,632 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-rpc+dubbo, 1683299055000, length=3638, md5=dd2c4ed834ddc900edd8acc2b33ea18a
+
+2023-05-05 23:41:50,633 INFO [dump-all-ok] com.haust.service.service.product.DtsGoodsService:::provider:shop-product-rpc+dubbo, 1683299056000, length=6605, md5=58b40d09dfd84ed245b57b34afe32648
+
+2023-05-05 23:41:50,633 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderService:::provider:shop-order-rpc+dubbo, 1683299057000, length=7009, md5=0137f16e4f4d08bd8cf1adaa01ba3720
+
+2023-05-05 23:41:50,633 INFO [dump-all-ok] com.haust.service.service.product.DtsBrandService:::provider:shop-product-rpc+dubbo, 1683299057000, length=4091, md5=ec78d432f3faa18586b50f9d1d2fe177
+
+2023-05-05 23:41:50,634 INFO [dump-all-ok] com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-rpc+dubbo, 1683299057000, length=3679, md5=88c736483d53f1b635b324a529dc7bfc
+
+2023-05-05 23:41:50,634 INFO [dump-all-ok] com.haust.service.service.product.DtsAdService:::provider:shop-product-rpc+dubbo, 1683299058000, length=3217, md5=f91c0c5c97c23725fd5505d9199ba974
+
+2023-05-05 23:41:50,634 INFO [dump-all-ok] com.haust.service.service.product.DtsCategoryService:::provider:shop-product-rpc+dubbo, 1683299059000, length=4276, md5=18e2ed90e227167e081b890abde3dbb6
+
+2023-05-05 23:45:02,072 INFO [dump-task] add task. groupKey=com.haust.service.service.third.QCodeService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.QCodeService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:45:02,204 INFO [dump-task] add task. groupKey=com.haust.service.service.third.StorageService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.StorageService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:45:02,446 INFO [dump-task] add task. groupKey=com.haust.service.service.third.Storage:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.Storage:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:45:02,695 INFO [dump-task] add task. groupKey=com.haust.service.service.third.DtsStorageService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.DtsStorageService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:45:02,944 INFO [dump-task] add task. groupKey=com.haust.service.service.third.ExpressService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.ExpressService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:45:03,186 INFO [dump-task] add task. groupKey=com.haust.service.service.third.DtsFormUserIdService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.DtsFormUserIdService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:45:03,421 INFO [dump-task] add task. groupKey=com.haust.service.service.third.SmsSender:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.SmsSender:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:45:03,665 INFO [dump-task] add task. groupKey=com.haust.service.service.third.DtsRegionService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.DtsRegionService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:45:03,910 INFO [dump-task] add task. groupKey=com.haust.service.service.third.NotifyService:::provider:shop-third+dubbo, taskKey=com.haust.service.service.third.NotifyService:::provider:shop-third+dubbo++false+null
+
+2023-05-05 23:47:18,062 INFO [dump-task] add task. groupKey=com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-rpc+dubbo, taskKey=com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-rpc+dubbo++false+null
+
+2023-05-05 23:47:18,290 INFO [dump-task] add task. groupKey=com.haust.service.service.search.DtsKeywordService:::provider:shop-search-rpc+dubbo, taskKey=com.haust.service.service.search.DtsKeywordService:::provider:shop-search-rpc+dubbo++false+null
+
+2023-05-05 23:47:24,500 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:47:24,724 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:47:24,965 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:47:25,222 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGoodsService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:47:25,472 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsBrandService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsBrandService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:47:25,692 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsAdService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsAdService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:47:25,929 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsCategoryService:::provider:shop-product-rpc+dubbo, taskKey=com.haust.service.service.product.DtsCategoryService:::provider:shop-product-rpc+dubbo++false+null
+
+2023-05-05 23:47:35,980 INFO [dump-task] add task. groupKey=com.haust.service.service.order.SettlementOrderService:::provider:shop-order-rpc+dubbo, taskKey=com.haust.service.service.order.SettlementOrderService:::provider:shop-order-rpc+dubbo++false+null
+
+2023-05-05 23:47:36,194 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderService:::provider:shop-order-rpc+dubbo, taskKey=com.haust.service.service.order.DtsOrderService:::provider:shop-order-rpc+dubbo++false+null
+
+2023-05-05 23:47:36,433 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-rpc+dubbo, taskKey=com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-rpc+dubbo++false+null
+
+2023-05-05 23:47:38,571 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsGrouponService+mapping, taskKey=com.haust.service.service.order.DtsGrouponService+mapping++false+null
+
+2023-05-05 23:47:38,589 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-rpc+dubbo, taskKey=com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-rpc+dubbo++false+null
+
+2023-05-05 23:47:38,827 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-rpc+dubbo, taskKey=com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-rpc+dubbo++false+null
+
+2023-05-05 23:47:38,846 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGrouponRulesService+mapping, taskKey=com.haust.service.service.product.DtsGrouponRulesService+mapping++false+null
+
+2023-05-05 23:47:42,827 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:47:43,043 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:47:43,279 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:47:43,533 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-rpc+dubbo, taskKey=com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-rpc+dubbo++false+null
+
+2023-05-05 23:47:48,951 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsCartService+mapping, taskKey=com.haust.service.service.order.DtsCartService+mapping++false+null
+
+2023-05-05 23:47:48,968 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsCartService:::provider:shop-cart-rpc+dubbo, taskKey=com.haust.service.service.order.DtsCartService:::provider:shop-cart-rpc+dubbo++false+null
+
+2023-05-05 23:47:56,761 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:47:56,985 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:47:57,225 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:47:57,460 INFO [dump-task] add task. groupKey=com.haust.service.service.stat.StatService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.stat.StatService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:47:57,691 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:47:57,927 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:47:58,158 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:47:58,398 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-rpc+dubbo, taskKey=com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-rpc+dubbo++false+null
+
+2023-05-05 23:48:06,434 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCollectService+mapping, taskKey=com.haust.service.service.user.DtsCollectService+mapping++false+null
+
+2023-05-05 23:48:06,445 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCollectService:::provider:shop-user-rpc+dubbo, taskKey=com.haust.service.service.user.DtsCollectService:::provider:shop-user-rpc+dubbo++false+null
+
+2023-05-05 23:48:06,685 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAddressService:::provider:shop-user-rpc+dubbo, taskKey=com.haust.service.service.user.DtsAddressService:::provider:shop-user-rpc+dubbo++false+null
+
+2023-05-05 23:48:06,698 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAddressService+mapping, taskKey=com.haust.service.service.user.DtsAddressService+mapping++false+null
+
+2023-05-05 23:48:06,949 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAccountService:::provider:shop-user-rpc+dubbo, taskKey=com.haust.service.service.user.DtsAccountService:::provider:shop-user-rpc+dubbo++false+null
+
+2023-05-05 23:48:06,961 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAccountService+mapping, taskKey=com.haust.service.service.user.DtsAccountService+mapping++false+null
+
+2023-05-05 23:48:07,205 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsFootprintService:::provider:shop-user-rpc+dubbo, taskKey=com.haust.service.service.user.DtsFootprintService:::provider:shop-user-rpc+dubbo++false+null
+
+2023-05-05 23:48:07,215 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsFootprintService+mapping, taskKey=com.haust.service.service.user.DtsFootprintService+mapping++false+null
+
+2023-05-05 23:48:07,452 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAgencyService:::provider:shop-user-rpc+dubbo, taskKey=com.haust.service.service.user.DtsAgencyService:::provider:shop-user-rpc+dubbo++false+null
+
+2023-05-05 23:48:07,464 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAgencyService+mapping, taskKey=com.haust.service.service.user.DtsAgencyService+mapping++false+null
+
+2023-05-05 23:48:07,706 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCommentService:::provider:shop-user-rpc+dubbo, taskKey=com.haust.service.service.user.DtsCommentService:::provider:shop-user-rpc+dubbo++false+null
+
+2023-05-05 23:48:07,716 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCommentService+mapping, taskKey=com.haust.service.service.user.DtsCommentService+mapping++false+null
+
+2023-05-05 23:48:07,956 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsUserService:::provider:shop-user-rpc+dubbo, taskKey=com.haust.service.service.user.DtsUserService:::provider:shop-user-rpc+dubbo++false+null
+
+2023-05-05 23:48:07,972 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsUserService+mapping, taskKey=com.haust.service.service.user.DtsUserService+mapping++false+null
+
+2023-05-05 23:49:01,442 INFO [dump-task] add task. groupKey=com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-api+dubbo, taskKey=com.haust.service.service.search.DtsSearchHistoryService:::provider:shop-search-api+dubbo++false+null
+
+2023-05-05 23:49:01,663 INFO [dump-task] add task. groupKey=com.haust.service.service.search.DtsKeywordService:::provider:shop-search-api+dubbo, taskKey=com.haust.service.service.search.DtsKeywordService:::provider:shop-search-api+dubbo++false+null
+
+2023-05-05 23:49:09,158 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsGoodsAttributeService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:49:09,379 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsGoodsSpecificationService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:49:09,611 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsGoodsProductService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:49:09,856 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGoodsService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsGoodsService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:49:10,091 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsBrandService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsBrandService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:49:10,324 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsAdService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsAdService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:49:10,554 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsCategoryService:::provider:shop-product-api+dubbo, taskKey=com.haust.service.service.product.DtsCategoryService:::provider:shop-product-api+dubbo++false+null
+
+2023-05-05 23:49:20,693 INFO [dump-task] add task. groupKey=com.haust.service.service.order.WxOrderService:::provider:shop-order-api+dubbo, taskKey=com.haust.service.service.order.WxOrderService:::provider:shop-order-api+dubbo++false+null
+
+2023-05-05 23:49:20,909 INFO [dump-task] add task. groupKey=com.haust.service.service.order.SettlementOrderService:::provider:shop-order-api+dubbo, taskKey=com.haust.service.service.order.SettlementOrderService:::provider:shop-order-api+dubbo++false+null
+
+2023-05-05 23:49:21,147 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderService:::provider:shop-order-api+dubbo, taskKey=com.haust.service.service.order.DtsOrderService:::provider:shop-order-api+dubbo++false+null
+
+2023-05-05 23:49:21,385 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-api+dubbo, taskKey=com.haust.service.service.order.DtsOrderGoodsService:::provider:shop-order-api+dubbo++false+null
+
+2023-05-05 23:49:25,039 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo, taskKey=com.haust.service.service.order.DtsGrouponService:::provider:shop-groupon-api+dubbo++false+null
+
+2023-05-05 23:49:25,258 INFO [dump-task] add task. groupKey=com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo, taskKey=com.haust.service.service.product.DtsGrouponRulesService:::provider:shop-groupon-api+dubbo++false+null
+
+2023-05-05 23:49:30,492 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-api+dubbo, taskKey=com.haust.service.service.coupon.CouponAssignService:::provider:shop-coupon-api+dubbo++false+null
+
+2023-05-05 23:49:30,732 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-api+dubbo, taskKey=com.haust.service.service.coupon.CouponVerifyService:::provider:shop-coupon-api+dubbo++false+null
+
+2023-05-05 23:49:31,056 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-api+dubbo, taskKey=com.haust.service.service.coupon.DtsCouponUserService:::provider:shop-coupon-api+dubbo++false+null
+
+2023-05-05 23:49:31,321 INFO [dump-task] add task. groupKey=com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-api+dubbo, taskKey=com.haust.service.service.coupon.DtsCouponService:::provider:shop-coupon-api+dubbo++false+null
+
+2023-05-05 23:49:38,281 INFO [dump-task] add task. groupKey=com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo, taskKey=com.haust.service.service.order.DtsCartService:::provider:shop-cart-api+dubbo++false+null
+
+2023-05-05 23:49:45,824 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsFeedbackService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:49:46,038 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsRoleService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:49:46,282 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsTopicService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:49:46,510 INFO [dump-task] add task. groupKey=com.haust.service.service.stat.StatService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.stat.StatService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:49:46,741 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsArticleService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:49:46,976 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsIssueService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:49:47,205 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsPermissionService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:49:47,433 INFO [dump-task] add task. groupKey=com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-api+dubbo, taskKey=com.haust.service.service.admin.DtsAdminService:::provider:shop-admin-api+dubbo++false+null
+
+2023-05-05 23:49:55,232 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsCollectService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:49:55,451 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAddressService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:49:55,705 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAccountService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:49:55,947 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsFootprintService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:49:56,179 INFO [dump-task] add task. groupKey=com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo, taskKey=com.haust.shop.user.service.UserInfoService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:49:56,413 INFO [dump-task] add task. groupKey=com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.WxAgencyService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:49:56,640 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsAgencyService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:49:56,874 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsCommentService:::provider:shop-user-api+dubbo++false+null
+
+2023-05-05 23:49:57,103 INFO [dump-task] add task. groupKey=com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo, taskKey=com.haust.service.service.user.DtsUserService:::provider:shop-user-api+dubbo++false+null
+

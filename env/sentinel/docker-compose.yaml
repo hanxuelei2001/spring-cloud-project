@@ -1,0 +1,10 @@
+version: "3.5"
+services: 
+  sentinel: 
+    image: bladex/sentinel-dashboard:1.8.6
+    container_name: sentinel
+    ports: 
+      - 8858:8858
+      - 8719:8719
+    environment: 
+      - server=localhost:8858

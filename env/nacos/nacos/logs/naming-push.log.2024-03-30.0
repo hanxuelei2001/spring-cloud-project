@@ -1,0 +1,51 @@
+2024-03-30 00:14:03,721 INFO [PUSH-SUCC] 7ms, all delay time 549ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-provider', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-03-30 00:20:44,553 INFO [PUSH-SUCC] 4ms, all delay time 562ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-provider', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-03-30 00:53:19,233 ERROR [PUSH-FAIL] 5000ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-provider', ephemeral=true, revision=0}, reason=Timeout After 5000 milliseconds, requestId=5, connectionId=1711731193542_172.19.0.1_60378, target=192.168.31.92
+
+2024-03-30 00:53:19,234 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=5, connectionId=1711731193542_172.19.0.1_60378
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-03-30 00:53:25,267 ERROR [PUSH-FAIL] 5000ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-provider', ephemeral=true, revision=0}, reason=Timeout After 5000 milliseconds, requestId=6, connectionId=1711731193542_172.19.0.1_60378, target=192.168.31.92
+
+2024-03-30 00:53:25,268 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=6, connectionId=1711731193542_172.19.0.1_60378
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-03-30 00:53:31,307 ERROR [PUSH-FAIL] 5000ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-provider', ephemeral=true, revision=0}, reason=Timeout After 5000 milliseconds, requestId=7, connectionId=1711731193542_172.19.0.1_60378, target=192.168.31.92
+
+2024-03-30 00:53:31,308 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=7, connectionId=1711731193542_172.19.0.1_60378
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-03-30 00:53:32,541 INFO [PUSH-SUCC] 207ms, all delay time 1233ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-provider', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-03-30 00:54:13,098 INFO [PUSH-SUCC] 5ms, all delay time 552ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-03-30 01:00:31,086 INFO [PUSH-SUCC] 3ms, all delay time 509ms, SLA 509ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=192.168.31.92
+
+2024-03-30 01:04:41,342 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=4}
+

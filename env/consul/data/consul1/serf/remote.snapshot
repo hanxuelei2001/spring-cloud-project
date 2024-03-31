@@ -33,3 +33,12 @@ alive: consul-server3.dc1 192.168.64.2:8302
 alive: consul-server2.dc1 192.168.64.3:8302
 clock: 16
 clock: 17
+alive: consul-server1.dc1 192.168.64.4:8302
+alive: consul-server2.dc1 192.168.64.2:8302
+alive: consul-server3.dc1 192.168.64.3:8302
+clock: 18
+clock: 19
+alive: consul-server1.dc1 192.168.64.2:8302
+alive: consul-server3.dc1 192.168.64.3:8302
+alive: consul-server2.dc1 192.168.64.4:8302
+clock: 20

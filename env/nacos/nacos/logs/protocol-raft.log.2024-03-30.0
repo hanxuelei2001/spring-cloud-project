@@ -1,0 +1,34 @@
+2024-03-30 01:48:53,443 INFO shutdown jraft server
+
+2024-03-30 01:48:53,443 INFO ========= The raft protocol is starting to close =========
+
+2024-03-30 01:48:53,489 INFO ========= The raft protocol has been closed =========
+
+2024-03-30 16:25:02,082 INFO Initializes the Raft protocol, raft-config info : {}
+
+2024-03-30 16:25:02,224 INFO ========= The raft protocol is starting... =========
+
+2024-03-30 16:25:02,242 INFO ========= The raft protocol start finished... =========
+
+2024-03-30 16:25:02,252 INFO create raft group : naming_persistent_service_v2
+
+2024-03-30 16:25:02,488 INFO snapshot start to load from : /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_1
+
+2024-03-30 16:25:02,491 INFO snapshot success to load from : /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_1
+
+2024-03-30 16:25:02,491 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[53275f7f0118:7848]}
+
+2024-03-30 16:25:02,751 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='53275f7f0118:7848', term=2, raftClusterInfo=[53275f7f0118:7848]}
+
+2024-03-30 16:25:02,754 INFO create raft group : naming_instance_metadata
+
+2024-03-30 16:25:02,793 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[53275f7f0118:7848]}
+
+2024-03-30 16:25:02,803 INFO create raft group : naming_service_metadata
+
+2024-03-30 16:25:02,803 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='53275f7f0118:7848', term=2, raftClusterInfo=[53275f7f0118:7848]}
+
+2024-03-30 16:25:02,843 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[53275f7f0118:7848]}
+
+2024-03-30 16:25:02,853 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='53275f7f0118:7848', term=2, raftClusterInfo=[53275f7f0118:7848]}
+

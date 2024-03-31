@@ -1,0 +1,22 @@
+2024-03-31 16:33:41,795 INFO [PUSH-SUCC] 8ms, all delay time 569ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-03-31 16:35:53,827 INFO [PUSH-SUCC] 1963ms, all delay time 2472ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-03-31 16:37:54,126 INFO [PUSH-SUCC] 3ms, all delay time 530ms, SLA 531ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.31.92
+
+2024-03-31 16:37:56,849 INFO [PUSH-SUCC] 3ms, all delay time 582ms, SLA 582ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.31.92
+
+2024-03-31 16:43:26,116 INFO [PUSH-SUCC] 5ms, all delay time 595ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-03-31 16:49:58,743 INFO [PUSH-SUCC] 5ms, all delay time 603ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-03-31 16:51:18,364 INFO [PUSH-SUCC] 6ms, all delay time 605ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-03-31 16:52:01,706 INFO [PUSH-SUCC] 5ms, all delay time 522ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-03-31 16:53:11,777 INFO [PUSH-SUCC] 5ms, all delay time 546ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-03-31 16:53:52,595 INFO [PUSH-SUCC] 5ms, all delay time 592ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-03-31 22:23:58,032 INFO [PUSH-SUCC] 4ms, all delay time 553ms for subscriber 192.168.31.92, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-payment-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+

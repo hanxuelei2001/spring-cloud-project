@@ -40,7 +40,7 @@ services:
 
   # nacos 是有状态的,需要连接mysql, 所以将nacos和mysql放在同一个network中
   nacos:
-    image: nacos/nacos-server:v2.2.0-slim
+    image: nacos/nacos-server:v2.2.3
     container_name: nacos
     depends_on:
       - haust-mysql

@@ -1,0 +1,396 @@
+2023-05-01 01:12:31,819 INFO notifyConnectTimeout:100
+
+2023-05-01 01:12:31,892 INFO notifySocketTimeout:200
+
+2023-05-01 01:12:31,892 INFO isHealthCheck:true
+
+2023-05-01 01:12:31,893 INFO maxHealthCheckFailCount:12
+
+2023-05-01 01:12:31,893 INFO maxContent:10485760
+
+2023-05-01 01:14:07,402 WARN DumpService start
+
+2023-05-01 01:14:07,417 INFO start clear all config-info.
+
+2023-05-01 01:14:07,438 WARN clear all config-info failed.
+
+2023-05-01 01:14:07,438 WARN clear all config-info-tenant failed.
+
+2023-05-01 01:27:33,320 INFO notifyConnectTimeout:100
+
+2023-05-01 01:27:33,361 INFO notifySocketTimeout:200
+
+2023-05-01 01:27:33,362 INFO isHealthCheck:true
+
+2023-05-01 01:27:33,363 INFO maxHealthCheckFailCount:12
+
+2023-05-01 01:27:33,366 INFO maxContent:10485760
+
+2023-05-01 01:28:21,638 WARN DumpService start
+
+2023-05-01 01:28:21,646 INFO start clear all config-info.
+
+2023-05-01 01:28:21,656 WARN clear all config-info failed.
+
+2023-05-01 01:28:21,656 WARN clear all config-info-tenant failed.
+
+2023-05-01 01:33:15,567 INFO notifyConnectTimeout:100
+
+2023-05-01 01:33:15,588 INFO notifySocketTimeout:200
+
+2023-05-01 01:33:15,589 INFO isHealthCheck:true
+
+2023-05-01 01:33:15,589 INFO maxHealthCheckFailCount:12
+
+2023-05-01 01:33:15,590 INFO maxContent:10485760
+
+2023-05-01 01:33:57,398 WARN DumpService start
+
+2023-05-01 01:33:57,402 INFO start clear all config-info.
+
+2023-05-01 01:33:57,403 WARN clear all config-info failed.
+
+2023-05-01 01:33:57,403 WARN clear all config-info-tenant failed.
+
+2023-05-01 13:03:38,853 INFO notifyConnectTimeout:100
+
+2023-05-01 13:03:38,902 INFO notifySocketTimeout:200
+
+2023-05-01 13:03:38,904 INFO isHealthCheck:true
+
+2023-05-01 13:03:38,904 INFO maxHealthCheckFailCount:12
+
+2023-05-01 13:03:38,904 INFO maxContent:10485760
+
+2023-05-01 13:04:13,513 WARN DumpService start
+
+2023-05-01 13:04:13,532 INFO start clear all config-info.
+
+2023-05-01 13:04:13,541 WARN clear all config-info failed.
+
+2023-05-01 13:04:13,541 WARN clear all config-info-tenant failed.
+
+2023-05-01 13:04:14,128 INFO [all-dump] 4115 / 4115
+
+2023-05-01 13:04:14,128 INFO start clear all config-info-beta.
+
+2023-05-01 13:04:14,128 WARN clear all config-info-beta failed.
+
+2023-05-01 13:04:14,129 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 13:04:14,136 INFO start clear all config-info-tag.
+
+2023-05-01 13:04:14,136 WARN clear all config-info-tag failed.
+
+2023-05-01 13:04:14,137 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 13:11:55,301 INFO notifyConnectTimeout:100
+
+2023-05-01 13:11:55,324 INFO notifySocketTimeout:200
+
+2023-05-01 13:11:55,325 INFO isHealthCheck:true
+
+2023-05-01 13:11:55,325 INFO maxHealthCheckFailCount:12
+
+2023-05-01 13:11:55,325 INFO maxContent:10485760
+
+2023-05-01 13:12:23,755 WARN DumpService start
+
+2023-05-01 13:12:23,765 INFO start clear all config-info.
+
+2023-05-01 13:12:23,769 WARN clear all config-info failed.
+
+2023-05-01 13:12:23,770 WARN clear all config-info-tenant failed.
+
+2023-05-01 13:12:24,203 INFO [all-dump] 4115 / 4115
+
+2023-05-01 13:12:24,203 INFO start clear all config-info-beta.
+
+2023-05-01 13:12:24,203 WARN clear all config-info-beta failed.
+
+2023-05-01 13:12:24,203 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 13:12:24,206 INFO start clear all config-info-tag.
+
+2023-05-01 13:12:24,206 WARN clear all config-info-tag failed.
+
+2023-05-01 13:12:24,206 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 14:10:11,789 INFO notifyConnectTimeout:100
+
+2023-05-01 14:10:11,819 INFO notifySocketTimeout:200
+
+2023-05-01 14:10:11,821 INFO isHealthCheck:true
+
+2023-05-01 14:10:11,822 INFO maxHealthCheckFailCount:12
+
+2023-05-01 14:10:11,830 INFO maxContent:10485760
+
+2023-05-01 14:10:53,509 WARN DumpService start
+
+2023-05-01 14:10:53,519 INFO start clear all config-info.
+
+2023-05-01 14:10:53,520 WARN clear all config-info failed.
+
+2023-05-01 14:10:53,521 WARN clear all config-info-tenant failed.
+
+2023-05-01 14:10:53,976 INFO [all-dump] 4115 / 4115
+
+2023-05-01 14:10:53,976 INFO start clear all config-info-beta.
+
+2023-05-01 14:10:53,976 WARN clear all config-info-beta failed.
+
+2023-05-01 14:10:53,976 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 14:10:53,981 INFO start clear all config-info-tag.
+
+2023-05-01 14:10:53,981 WARN clear all config-info-tag failed.
+
+2023-05-01 14:10:53,981 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 14:25:37,280 INFO notifyConnectTimeout:100
+
+2023-05-01 14:25:37,316 INFO notifySocketTimeout:200
+
+2023-05-01 14:25:37,317 INFO isHealthCheck:true
+
+2023-05-01 14:25:37,317 INFO maxHealthCheckFailCount:12
+
+2023-05-01 14:25:37,318 INFO maxContent:10485760
+
+2023-05-01 14:26:11,593 WARN DumpService start
+
+2023-05-01 14:26:11,599 INFO start clear all config-info.
+
+2023-05-01 14:26:11,602 WARN clear all config-info failed.
+
+2023-05-01 14:26:11,603 WARN clear all config-info-tenant failed.
+
+2023-05-01 14:26:11,892 INFO [all-dump] 4133 / 4133
+
+2023-05-01 14:26:11,892 INFO start clear all config-info-beta.
+
+2023-05-01 14:26:11,892 WARN clear all config-info-beta failed.
+
+2023-05-01 14:26:11,892 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 14:26:11,895 INFO start clear all config-info-tag.
+
+2023-05-01 14:26:11,897 WARN clear all config-info-tag failed.
+
+2023-05-01 14:26:11,897 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 15:35:13,116 INFO notifyConnectTimeout:100
+
+2023-05-01 15:35:13,124 INFO notifySocketTimeout:200
+
+2023-05-01 15:35:13,124 INFO isHealthCheck:true
+
+2023-05-01 15:35:13,125 INFO maxHealthCheckFailCount:12
+
+2023-05-01 15:35:13,125 INFO maxContent:10485760
+
+2023-05-01 15:35:19,413 WARN DumpService start
+
+2023-05-01 15:35:19,415 INFO start clear all config-info.
+
+2023-05-01 15:35:19,427 INFO clear all config-info success.
+
+2023-05-01 15:35:19,434 INFO clear all config-info-tenant success.
+
+2023-05-01 15:35:19,541 INFO [all-dump] 4133 / 4133
+
+2023-05-01 15:35:19,541 INFO start clear all config-info-beta.
+
+2023-05-01 15:35:19,541 WARN clear all config-info-beta failed.
+
+2023-05-01 15:35:19,541 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 15:35:19,544 INFO start clear all config-info-tag.
+
+2023-05-01 15:35:19,544 WARN clear all config-info-tag failed.
+
+2023-05-01 15:35:19,544 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 18:44:55,889 INFO notifyConnectTimeout:100
+
+2023-05-01 18:44:55,902 INFO notifySocketTimeout:200
+
+2023-05-01 18:44:55,902 INFO isHealthCheck:true
+
+2023-05-01 18:44:55,903 INFO maxHealthCheckFailCount:12
+
+2023-05-01 18:44:55,903 INFO maxContent:10485760
+
+2023-05-01 18:45:05,730 WARN DumpService start
+
+2023-05-01 18:45:05,731 INFO start clear all config-info.
+
+2023-05-01 18:45:05,732 WARN clear all config-info failed.
+
+2023-05-01 18:45:05,732 WARN clear all config-info-tenant failed.
+
+2023-05-01 18:45:05,865 INFO [all-dump] 4115 / 4115
+
+2023-05-01 18:45:05,865 INFO start clear all config-info-beta.
+
+2023-05-01 18:45:05,865 WARN clear all config-info-beta failed.
+
+2023-05-01 18:45:05,865 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 18:45:05,867 INFO start clear all config-info-tag.
+
+2023-05-01 18:45:05,867 WARN clear all config-info-tag failed.
+
+2023-05-01 18:45:05,867 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 19:20:44,186 INFO notifyConnectTimeout:100
+
+2023-05-01 19:20:44,189 INFO notifySocketTimeout:200
+
+2023-05-01 19:20:44,189 INFO isHealthCheck:true
+
+2023-05-01 19:20:44,189 INFO maxHealthCheckFailCount:12
+
+2023-05-01 19:20:44,189 INFO maxContent:10485760
+
+2023-05-01 19:20:55,232 WARN DumpService start
+
+2023-05-01 19:20:55,233 INFO start clear all config-info.
+
+2023-05-01 19:20:55,234 WARN clear all config-info failed.
+
+2023-05-01 19:20:55,234 WARN clear all config-info-tenant failed.
+
+2023-05-01 19:20:55,889 INFO [all-dump] 4133 / 4133
+
+2023-05-01 19:20:55,889 INFO start clear all config-info-beta.
+
+2023-05-01 19:20:55,890 WARN clear all config-info-beta failed.
+
+2023-05-01 19:20:55,890 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 19:20:55,894 INFO start clear all config-info-tag.
+
+2023-05-01 19:20:55,894 WARN clear all config-info-tag failed.
+
+2023-05-01 19:20:55,894 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 22:48:41,035 WARN [read-lock] failed, -1, com.haust.service.service.admin.DtsRoleService+mapping
+
+2023-05-01 22:48:41,037 WARN [read-lock] failed, -1, com.haust.service.service.admin.DtsRoleService+mapping
+
+2023-05-01 22:58:50,472 INFO notifyConnectTimeout:100
+
+2023-05-01 22:58:50,478 INFO notifySocketTimeout:200
+
+2023-05-01 22:58:50,479 INFO isHealthCheck:true
+
+2023-05-01 22:58:50,479 INFO maxHealthCheckFailCount:12
+
+2023-05-01 22:58:50,479 INFO maxContent:10485760
+
+2023-05-01 22:59:23,251 WARN DumpService start
+
+2023-05-01 22:59:23,253 INFO start clear all config-info.
+
+2023-05-01 22:59:23,530 INFO clear all config-info success.
+
+2023-05-01 22:59:23,686 INFO clear all config-info-tenant success.
+
+2023-05-01 22:59:24,607 INFO [all-dump] 4299 / 4299
+
+2023-05-01 22:59:24,607 INFO start clear all config-info-beta.
+
+2023-05-01 22:59:24,607 WARN clear all config-info-beta failed.
+
+2023-05-01 22:59:24,607 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 22:59:24,611 INFO start clear all config-info-tag.
+
+2023-05-01 22:59:24,611 WARN clear all config-info-tag failed.
+
+2023-05-01 22:59:24,611 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 23:02:06,415 ERROR java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+2023-05-01 23:04:36,961 ERROR java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+2023-05-01 23:04:43,719 ERROR java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+2023-05-01 23:14:48,909 INFO notifyConnectTimeout:100
+
+2023-05-01 23:14:48,914 INFO notifySocketTimeout:200
+
+2023-05-01 23:14:48,915 INFO isHealthCheck:true
+
+2023-05-01 23:14:48,915 INFO maxHealthCheckFailCount:12
+
+2023-05-01 23:14:48,916 INFO maxContent:10485760
+
+2023-05-01 23:14:53,460 WARN DumpService start
+
+2023-05-01 23:14:53,461 INFO start clear all config-info.
+
+2023-05-01 23:14:53,483 INFO clear all config-info success.
+
+2023-05-01 23:14:53,493 INFO clear all config-info-tenant success.
+
+2023-05-01 23:14:53,836 INFO [all-dump] 4299 / 4299
+
+2023-05-01 23:14:53,836 INFO start clear all config-info-beta.
+
+2023-05-01 23:14:53,836 WARN clear all config-info-beta failed.
+
+2023-05-01 23:14:53,836 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 23:14:53,841 INFO start clear all config-info-tag.
+
+2023-05-01 23:14:53,841 WARN clear all config-info-tag failed.
+
+2023-05-01 23:14:53,841 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 23:18:53,646 INFO notifyConnectTimeout:100
+
+2023-05-01 23:18:53,655 INFO notifySocketTimeout:200
+
+2023-05-01 23:18:53,655 INFO isHealthCheck:true
+
+2023-05-01 23:18:53,655 INFO maxHealthCheckFailCount:12
+
+2023-05-01 23:18:53,655 INFO maxContent:10485760
+
+2023-05-01 23:19:24,863 WARN DumpService start
+
+2023-05-01 23:19:24,939 INFO start clear all config-info.
+
+2023-05-01 23:19:25,236 INFO clear all config-info success.
+
+2023-05-01 23:19:25,344 INFO clear all config-info-tenant success.
+
+2023-05-01 23:19:26,731 INFO [all-dump] 4299 / 4299
+
+2023-05-01 23:19:26,731 INFO start clear all config-info-beta.
+
+2023-05-01 23:19:26,731 WARN clear all config-info-beta failed.
+
+2023-05-01 23:19:26,731 WARN clear all config-info-beta-tenant failed.
+
+2023-05-01 23:19:26,741 INFO start clear all config-info-tag.
+
+2023-05-01 23:19:26,742 WARN clear all config-info-tag failed.
+
+2023-05-01 23:19:26,742 WARN clear all config-info-tag-tenant failed.
+
+2023-05-01 23:23:13,328 ERROR java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+2023-05-01 23:24:27,105 ERROR java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+2023-05-01 23:25:13,740 ERROR java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
