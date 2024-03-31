@@ -1,0 +1,24 @@
+server:
+  port: 9528
+spring:
+  application:
+    name: cloudalibaba-sentinel-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    loadbalancer:
+      nacos:
+        enabled: true
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+      routes:
+        - id: pay_route1
+          uri: lb://nacos-payment-service
+          predicates:
+            - Path=/pay/nacos/**
+logging:
+  level:
+    root: debug
